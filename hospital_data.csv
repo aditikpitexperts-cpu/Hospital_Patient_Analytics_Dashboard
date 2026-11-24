@@ -1,0 +1,1001 @@
+Patient_ID,Age,Gender,Department,Disease,Admission_Date,Stay_Days,Treatment_Cost,Recovery_Rate,Doctor,Month,Age_Group,Cost_Category
+1001,52,Male,Neurology,Fracture,2023-01-01 00:00:00,21,81240,68.6,Dr.Verma,Jan,Middle-Aged,High
+1002,15,Male,Cardiology,Fever,2023-01-01 08:00:00,12,21322,94.6,Dr.Mehta,Jan,Child,Budget
+1003,72,Male,General,Asthma,2023-01-01 16:00:00,15,118053,96.4,Dr.Verma,Jan,Senior,High
+1004,61,Female,Neurology,Diabetes,2023-01-02 00:00:00,21,11968,95.7,Dr.Singh,Jan,Middle-Aged,Budget
+1005,21,Female,Neurology,Heart Attack,2023-01-02 08:00:00,10,32518,84.8,Dr.Sharma,Jan,Adult,Moderate
+1006,83,Female,Cardiology,Fracture,2023-01-02 16:00:00,14,56925,84.6,Dr.Mehta,Jan,Senior,Moderate
+1007,87,Male,Orthopedics,Heart Attack,2023-01-03 00:00:00,13,195920,75.7,Dr.Verma,Jan,Senior,High
+1008,75,Male,Pediatrics,Fracture,2023-01-03 08:00:00,5,116900,89.3,Dr.Sharma,Jan,Senior,High
+1009,75,Male,Orthopedics,Heart Attack,2023-01-03 16:00:00,6,98422,80.7,Dr.Khan,Jan,Senior,High
+1010,88,Male,General,Migraine,2023-01-04 00:00:00,24,6700,86.4,Dr.Verma,Jan,Senior,Budget
+1011,24,Male,Neurology,Fracture,2023-01-04 08:00:00,2,98782,76.7,Dr.Sharma,Jan,Adult,High
+1012,3,Male,Cardiology,Heart Attack,2023-01-04 16:00:00,22,28199,88.5,Dr.Singh,Jan,Child,Moderate
+1013,22,Female,Cardiology,Diabetes,2023-01-05 00:00:00,17,180661,92.2,Dr.Khan,Jan,Adult,High
+1014,53,Female,Pediatrics,Migraine,2023-01-05 08:00:00,4,168187,65.7,Dr.Singh,Jan,Middle-Aged,High
+1015,2,Female,Orthopedics,Migraine,2023-01-05 16:00:00,14,198006,92.5,Dr.Sharma,Jan,Child,High
+1016,88,Female,Pediatrics,Diabetes,2023-01-06 00:00:00,10,190388,81.1,Dr.Singh,Jan,Senior,High
+1017,30,Male,Neurology,Heart Attack,2023-01-06 08:00:00,3,10520,92.9,Dr.Sharma,Jan,Adult,Budget
+1018,38,Male,Pediatrics,Fever,2023-01-06 16:00:00,25,114814,76.8,Dr.Sharma,Jan,Adult,High
+1019,2,Female,Cardiology,Diabetes,2023-01-07 00:00:00,3,172527,74.8,Dr.Singh,Jan,Child,High
+1020,64,Male,Cardiology,Heart Attack,2023-01-07 08:00:00,15,128364,95.7,Dr.Sharma,Jan,Middle-Aged,High
+1021,60,Female,General,Diabetes,2023-01-07 16:00:00,6,177677,69.8,Dr.Verma,Jan,Middle-Aged,High
+1022,21,Female,General,Diabetes,2023-01-08 00:00:00,17,19955,92.9,Dr.Sharma,Jan,Adult,Budget
+1023,33,Female,Neurology,Fracture,2023-01-08 08:00:00,12,180121,78.9,Dr.Mehta,Jan,Adult,High
+1024,76,Male,Orthopedics,Heart Attack,2023-01-08 16:00:00,22,149989,80.0,Dr.Sharma,Jan,Senior,High
+1025,58,Female,Pediatrics,Fever,2023-01-09 00:00:00,20,69925,72.0,Dr.Mehta,Jan,Middle-Aged,Moderate
+1026,22,Female,Neurology,Fracture,2023-01-09 08:00:00,24,112216,82.3,Dr.Sharma,Jan,Adult,High
+1027,89,Female,General,Diabetes,2023-01-09 16:00:00,29,75269,72.7,Dr.Sharma,Jan,Senior,Moderate
+1028,49,Male,Pediatrics,Asthma,2023-01-10 00:00:00,11,167026,61.5,Dr.Singh,Jan,Middle-Aged,High
+1029,59,Male,General,Diabetes,2023-01-10 08:00:00,25,46458,70.6,Dr.Verma,Jan,Middle-Aged,Moderate
+1030,42,Female,Pediatrics,Diabetes,2023-01-10 16:00:00,4,94037,60.2,Dr.Verma,Jan,Adult,High
+1031,60,Male,Orthopedics,Heart Attack,2023-01-11 00:00:00,26,157185,98.2,Dr.Khan,Jan,Middle-Aged,High
+1032,80,Male,Neurology,Heart Attack,2023-01-11 08:00:00,28,104977,97.7,Dr.Singh,Jan,Senior,High
+1033,15,Male,Pediatrics,Fracture,2023-01-11 16:00:00,26,48939,75.4,Dr.Singh,Jan,Child,Moderate
+1034,62,Male,Cardiology,Fever,2023-01-12 00:00:00,6,34345,88.4,Dr.Verma,Jan,Middle-Aged,Moderate
+1035,62,Male,Cardiology,Fracture,2023-01-12 08:00:00,1,182385,73.5,Dr.Singh,Jan,Middle-Aged,High
+1036,47,Male,Pediatrics,Migraine,2023-01-12 16:00:00,20,115107,86.2,Dr.Verma,Jan,Middle-Aged,High
+1037,62,Male,Pediatrics,Diabetes,2023-01-13 00:00:00,23,126866,91.4,Dr.Singh,Jan,Middle-Aged,High
+1038,51,Male,Pediatrics,Asthma,2023-01-13 08:00:00,28,74166,96.9,Dr.Sharma,Jan,Middle-Aged,Moderate
+1039,55,Male,Cardiology,Diabetes,2023-01-13 16:00:00,16,183933,75.6,Dr.Verma,Jan,Middle-Aged,High
+1040,64,Male,Cardiology,Diabetes,2023-01-14 00:00:00,15,102406,90.5,Dr.Verma,Jan,Middle-Aged,High
+1041,3,Female,Pediatrics,Fracture,2023-01-14 08:00:00,17,54298,70.4,Dr.Mehta,Jan,Child,Moderate
+1042,51,Female,General,Asthma,2023-01-14 16:00:00,8,183293,98.6,Dr.Singh,Jan,Middle-Aged,High
+1043,7,Male,General,Asthma,2023-01-15 00:00:00,28,49942,61.0,Dr.Singh,Jan,Child,Moderate
+1044,21,Female,Orthopedics,Asthma,2023-01-15 08:00:00,26,8453,83.5,Dr.Verma,Jan,Adult,Budget
+1045,73,Female,Neurology,Fracture,2023-01-15 16:00:00,12,107811,85.7,Dr.Sharma,Jan,Senior,High
+1046,39,Male,General,Diabetes,2023-01-16 00:00:00,27,59935,86.8,Dr.Sharma,Jan,Adult,Moderate
+1047,18,Male,Cardiology,Fracture,2023-01-16 08:00:00,22,127439,64.7,Dr.Sharma,Jan,Adult,High
+1048,4,Male,General,Heart Attack,2023-01-16 16:00:00,21,179442,96.6,Dr.Singh,Jan,Child,High
+1049,89,Female,Orthopedics,Heart Attack,2023-01-17 00:00:00,10,13328,67.1,Dr.Mehta,Jan,Senior,Budget
+1050,60,Female,Orthopedics,Fracture,2023-01-17 08:00:00,27,20534,84.3,Dr.Verma,Jan,Middle-Aged,Budget
+1051,14,Male,Neurology,Asthma,2023-01-17 16:00:00,15,90280,68.7,Dr.Khan,Jan,Child,High
+1052,9,Male,General,Diabetes,2023-01-18 00:00:00,30,41320,72.0,Dr.Mehta,Jan,Child,Moderate
+1053,90,Male,Cardiology,Fracture,2023-01-18 08:00:00,9,54170,81.3,Dr.Khan,Jan,Senior,Moderate
+1054,53,Female,Cardiology,Fracture,2023-01-18 16:00:00,2,105546,76.3,Dr.Mehta,Jan,Middle-Aged,High
+1055,2,Female,Pediatrics,Fracture,2023-01-19 00:00:00,5,85201,66.2,Dr.Sharma,Jan,Child,High
+1056,84,Female,Cardiology,Migraine,2023-01-19 08:00:00,6,13640,66.7,Dr.Singh,Jan,Senior,Budget
+1057,60,Female,Neurology,Heart Attack,2023-01-19 16:00:00,7,166121,76.3,Dr.Khan,Jan,Middle-Aged,High
+1058,71,Male,Neurology,Asthma,2023-01-20 00:00:00,21,141690,89.5,Dr.Mehta,Jan,Senior,High
+1059,44,Male,Cardiology,Fever,2023-01-20 08:00:00,25,192125,95.0,Dr.Singh,Jan,Adult,High
+1060,8,Male,Cardiology,Asthma,2023-01-20 16:00:00,1,137992,63.3,Dr.Khan,Jan,Child,High
+1061,47,Male,Pediatrics,Fever,2023-01-21 00:00:00,23,48937,75.3,Dr.Verma,Jan,Middle-Aged,Moderate
+1062,35,Female,Cardiology,Migraine,2023-01-21 08:00:00,26,148279,63.9,Dr.Mehta,Jan,Adult,High
+1063,78,Female,Pediatrics,Fracture,2023-01-21 16:00:00,7,169044,60.6,Dr.Verma,Jan,Senior,High
+1064,81,Male,Pediatrics,Migraine,2023-01-22 00:00:00,20,146871,85.8,Dr.Sharma,Jan,Senior,High
+1065,36,Male,Cardiology,Migraine,2023-01-22 08:00:00,25,164988,83.5,Dr.Verma,Jan,Adult,High
+1066,50,Female,Orthopedics,Diabetes,2023-01-22 16:00:00,30,75463,66.4,Dr.Verma,Jan,Middle-Aged,Moderate
+1067,4,Male,Orthopedics,Heart Attack,2023-01-23 00:00:00,12,98500,69.1,Dr.Mehta,Jan,Child,High
+1068,2,Female,Pediatrics,Fever,2023-01-23 08:00:00,16,42158,60.9,Dr.Sharma,Jan,Child,Moderate
+1069,6,Male,Cardiology,Fracture,2023-01-23 16:00:00,16,89607,92.6,Dr.Verma,Jan,Child,High
+1070,54,Male,Orthopedics,Fever,2023-01-24 00:00:00,11,124639,98.0,Dr.Singh,Jan,Middle-Aged,High
+1071,4,Male,Cardiology,Asthma,2023-01-24 08:00:00,21,76696,65.3,Dr.Khan,Jan,Child,Moderate
+1072,54,Male,Cardiology,Fever,2023-01-24 16:00:00,4,66510,69.0,Dr.Verma,Jan,Middle-Aged,Moderate
+1073,63,Male,Cardiology,Asthma,2023-01-25 00:00:00,13,125076,93.9,Dr.Sharma,Jan,Middle-Aged,High
+1074,18,Male,General,Heart Attack,2023-01-25 08:00:00,7,63692,96.1,Dr.Verma,Jan,Adult,Moderate
+1075,90,Male,Cardiology,Asthma,2023-01-25 16:00:00,4,135841,76.4,Dr.Khan,Jan,Senior,High
+1076,44,Female,General,Fever,2023-01-26 00:00:00,15,197816,62.0,Dr.Sharma,Jan,Adult,High
+1077,34,Female,Pediatrics,Fever,2023-01-26 08:00:00,19,20810,61.5,Dr.Mehta,Jan,Adult,Budget
+1078,74,Female,Orthopedics,Asthma,2023-01-26 16:00:00,9,141198,82.4,Dr.Sharma,Jan,Senior,High
+1079,62,Female,Orthopedics,Migraine,2023-01-27 00:00:00,11,166081,75.3,Dr.Mehta,Jan,Middle-Aged,High
+1080,14,Female,Orthopedics,Heart Attack,2023-01-27 08:00:00,8,116718,61.1,Dr.Sharma,Jan,Child,High
+1081,48,Male,Orthopedics,Diabetes,2023-01-27 16:00:00,1,95932,82.7,Dr.Khan,Jan,Middle-Aged,High
+1082,15,Male,Orthopedics,Fracture,2023-01-28 00:00:00,23,5192,60.4,Dr.Khan,Jan,Child,Budget
+1083,72,Female,Orthopedics,Fever,2023-01-28 08:00:00,25,41413,90.7,Dr.Sharma,Jan,Senior,Moderate
+1084,78,Male,Orthopedics,Fracture,2023-01-28 16:00:00,24,148888,72.0,Dr.Verma,Jan,Senior,High
+1085,87,Female,Pediatrics,Diabetes,2023-01-29 00:00:00,8,44082,61.6,Dr.Khan,Jan,Senior,Moderate
+1086,62,Female,Cardiology,Fracture,2023-01-29 08:00:00,13,70048,82.9,Dr.Mehta,Jan,Middle-Aged,Moderate
+1087,40,Male,Neurology,Diabetes,2023-01-29 16:00:00,22,128130,75.5,Dr.Mehta,Jan,Adult,High
+1088,85,Male,General,Asthma,2023-01-30 00:00:00,27,55940,98.0,Dr.Singh,Jan,Senior,Moderate
+1089,80,Male,Neurology,Migraine,2023-01-30 08:00:00,4,168202,81.2,Dr.Mehta,Jan,Senior,High
+1090,82,Female,Neurology,Fever,2023-01-30 16:00:00,8,45142,70.7,Dr.Singh,Jan,Senior,Moderate
+1091,53,Male,Cardiology,Diabetes,2023-01-31 00:00:00,3,41468,87.7,Dr.Sharma,Jan,Middle-Aged,Moderate
+1092,24,Female,Cardiology,Fracture,2023-01-31 08:00:00,29,166770,70.6,Dr.Sharma,Jan,Adult,High
+1093,26,Female,Cardiology,Fever,2023-01-31 16:00:00,9,146727,95.3,Dr.Sharma,Jan,Adult,High
+1094,89,Female,Orthopedics,Migraine,2023-02-01 00:00:00,29,183969,74.6,Dr.Verma,Feb,Senior,High
+1095,60,Male,Pediatrics,Asthma,2023-02-01 08:00:00,2,166147,81.4,Dr.Verma,Feb,Middle-Aged,High
+1096,41,Male,Orthopedics,Fever,2023-02-01 16:00:00,2,145431,62.0,Dr.Singh,Feb,Adult,High
+1097,29,Female,Pediatrics,Diabetes,2023-02-02 00:00:00,28,134048,76.6,Dr.Mehta,Feb,Adult,High
+1098,15,Male,Pediatrics,Migraine,2023-02-02 08:00:00,13,47056,92.5,Dr.Mehta,Feb,Child,Moderate
+1099,45,Male,Neurology,Fracture,2023-02-02 16:00:00,15,56831,91.4,Dr.Sharma,Feb,Middle-Aged,Moderate
+1100,65,Male,Neurology,Migraine,2023-02-03 00:00:00,28,64191,68.7,Dr.Khan,Feb,Senior,Moderate
+1101,89,Female,Pediatrics,Migraine,2023-02-03 08:00:00,23,126948,68.8,Dr.Verma,Feb,Senior,High
+1102,71,Female,Pediatrics,Heart Attack,2023-02-03 16:00:00,12,169344,91.9,Dr.Verma,Feb,Senior,High
+1103,9,Male,Orthopedics,Migraine,2023-02-04 00:00:00,26,113117,96.3,Dr.Sharma,Feb,Child,High
+1104,88,Female,Orthopedics,Migraine,2023-02-04 08:00:00,4,19671,63.7,Dr.Verma,Feb,Senior,Budget
+1105,1,Male,Neurology,Fever,2023-02-04 16:00:00,26,32048,77.6,Dr.Sharma,Feb,Child,Moderate
+1106,8,Male,Cardiology,Fracture,2023-02-05 00:00:00,8,30963,73.2,Dr.Singh,Feb,Child,Moderate
+1107,88,Male,Pediatrics,Fever,2023-02-05 08:00:00,9,48954,94.0,Dr.Mehta,Feb,Senior,Moderate
+1108,63,Male,Orthopedics,Fever,2023-02-05 16:00:00,23,100430,63.3,Dr.Khan,Feb,Middle-Aged,High
+1109,11,Female,Neurology,Diabetes,2023-02-06 00:00:00,5,5717,68.2,Dr.Mehta,Feb,Child,Budget
+1110,81,Female,Orthopedics,Fever,2023-02-06 08:00:00,24,16676,89.3,Dr.Mehta,Feb,Senior,Budget
+1111,8,Female,Pediatrics,Heart Attack,2023-02-06 16:00:00,20,140506,62.0,Dr.Singh,Feb,Child,High
+1112,35,Male,Pediatrics,Heart Attack,2023-02-07 00:00:00,18,185882,79.2,Dr.Verma,Feb,Adult,High
+1113,35,Male,General,Diabetes,2023-02-07 08:00:00,11,123696,77.2,Dr.Khan,Feb,Adult,High
+1114,33,Male,Cardiology,Asthma,2023-02-07 16:00:00,15,135830,73.0,Dr.Verma,Feb,Adult,High
+1115,5,Female,General,Fracture,2023-02-08 00:00:00,28,9994,75.4,Dr.Mehta,Feb,Child,Budget
+1116,41,Male,Neurology,Fracture,2023-02-08 08:00:00,22,9234,80.7,Dr.Sharma,Feb,Adult,Budget
+1117,28,Female,Orthopedics,Fever,2023-02-08 16:00:00,9,74300,66.3,Dr.Mehta,Feb,Adult,Moderate
+1118,7,Female,Neurology,Fever,2023-02-09 00:00:00,17,48949,82.3,Dr.Verma,Feb,Child,Moderate
+1119,73,Female,Pediatrics,Asthma,2023-02-09 08:00:00,27,42405,91.4,Dr.Mehta,Feb,Senior,Moderate
+1120,72,Female,General,Fever,2023-02-09 16:00:00,26,39872,89.6,Dr.Sharma,Feb,Senior,Moderate
+1121,12,Female,General,Fracture,2023-02-10 00:00:00,12,47215,66.0,Dr.Singh,Feb,Child,Moderate
+1122,34,Female,General,Migraine,2023-02-10 08:00:00,7,28185,65.8,Dr.Verma,Feb,Adult,Moderate
+1123,33,Male,Neurology,Heart Attack,2023-02-10 16:00:00,10,179514,70.5,Dr.Mehta,Feb,Adult,High
+1124,48,Male,Pediatrics,Migraine,2023-02-11 00:00:00,25,187831,74.1,Dr.Verma,Feb,Middle-Aged,High
+1125,23,Female,Orthopedics,Migraine,2023-02-11 08:00:00,26,46153,75.9,Dr.Singh,Feb,Adult,Moderate
+1126,62,Female,Orthopedics,Fracture,2023-02-11 16:00:00,25,82535,86.5,Dr.Mehta,Feb,Middle-Aged,High
+1127,88,Male,Neurology,Migraine,2023-02-12 00:00:00,10,138653,62.2,Dr.Mehta,Feb,Senior,High
+1128,37,Female,General,Asthma,2023-02-12 08:00:00,27,56717,61.4,Dr.Verma,Feb,Adult,Moderate
+1129,44,Female,Cardiology,Diabetes,2023-02-12 16:00:00,13,7763,75.3,Dr.Verma,Feb,Adult,Budget
+1130,86,Male,Neurology,Fever,2023-02-13 00:00:00,19,97910,87.2,Dr.Sharma,Feb,Senior,High
+1131,35,Female,Neurology,Diabetes,2023-02-13 08:00:00,11,60480,67.5,Dr.Singh,Feb,Adult,Moderate
+1132,65,Female,Pediatrics,Heart Attack,2023-02-13 16:00:00,13,174831,85.0,Dr.Sharma,Feb,Senior,High
+1133,47,Female,Orthopedics,Fever,2023-02-14 00:00:00,21,123094,70.1,Dr.Mehta,Feb,Middle-Aged,High
+1134,78,Male,Neurology,Migraine,2023-02-14 08:00:00,8,161379,94.6,Dr.Verma,Feb,Senior,High
+1135,3,Male,Neurology,Heart Attack,2023-02-14 16:00:00,8,16064,94.9,Dr.Mehta,Feb,Child,Budget
+1136,1,Male,General,Fever,2023-02-15 00:00:00,4,81848,71.6,Dr.Mehta,Feb,Child,High
+1137,5,Female,General,Asthma,2023-02-15 08:00:00,15,42548,69.0,Dr.Khan,Feb,Child,Moderate
+1138,90,Female,Cardiology,Asthma,2023-02-15 16:00:00,28,173017,76.0,Dr.Khan,Feb,Senior,High
+1139,14,Male,Pediatrics,Asthma,2023-02-16 00:00:00,11,184009,69.4,Dr.Mehta,Feb,Child,High
+1140,27,Female,Cardiology,Asthma,2023-02-16 08:00:00,11,11476,86.2,Dr.Verma,Feb,Adult,Budget
+1141,9,Female,General,Migraine,2023-02-16 16:00:00,1,187828,92.2,Dr.Mehta,Feb,Child,High
+1142,79,Female,Orthopedics,Diabetes,2023-02-17 00:00:00,17,95101,86.3,Dr.Khan,Feb,Senior,High
+1143,15,Female,General,Fever,2023-02-17 08:00:00,15,7382,92.1,Dr.Verma,Feb,Child,Budget
+1144,90,Female,Pediatrics,Migraine,2023-02-17 16:00:00,20,185755,75.5,Dr.Mehta,Feb,Senior,High
+1145,42,Male,General,Asthma,2023-02-18 00:00:00,6,181348,66.1,Dr.Singh,Feb,Adult,High
+1146,77,Female,Pediatrics,Diabetes,2023-02-18 08:00:00,24,169474,88.8,Dr.Singh,Feb,Senior,High
+1147,51,Male,Pediatrics,Heart Attack,2023-02-18 16:00:00,22,163018,74.1,Dr.Mehta,Feb,Middle-Aged,High
+1148,63,Female,Pediatrics,Heart Attack,2023-02-19 00:00:00,28,84698,86.2,Dr.Verma,Feb,Middle-Aged,High
+1149,52,Male,Pediatrics,Heart Attack,2023-02-19 08:00:00,25,158407,70.6,Dr.Mehta,Feb,Middle-Aged,High
+1150,4,Female,Pediatrics,Asthma,2023-02-19 16:00:00,15,50095,63.2,Dr.Mehta,Feb,Child,Moderate
+1151,23,Male,Orthopedics,Heart Attack,2023-02-20 00:00:00,9,134974,98.7,Dr.Khan,Feb,Adult,High
+1152,15,Female,Cardiology,Fracture,2023-02-20 08:00:00,14,32197,66.1,Dr.Singh,Feb,Child,Moderate
+1153,43,Male,Neurology,Fever,2023-02-20 16:00:00,18,132619,98.5,Dr.Khan,Feb,Adult,High
+1154,29,Female,Cardiology,Fever,2023-02-21 00:00:00,26,27010,98.1,Dr.Khan,Feb,Adult,Moderate
+1155,36,Male,Pediatrics,Asthma,2023-02-21 08:00:00,17,160195,91.0,Dr.Mehta,Feb,Adult,High
+1156,13,Female,Orthopedics,Fracture,2023-02-21 16:00:00,18,92923,85.7,Dr.Khan,Feb,Child,High
+1157,32,Male,General,Migraine,2023-02-22 00:00:00,5,138962,82.5,Dr.Singh,Feb,Adult,High
+1158,71,Male,Orthopedics,Migraine,2023-02-22 08:00:00,20,135526,93.8,Dr.Khan,Feb,Senior,High
+1159,59,Female,Pediatrics,Heart Attack,2023-02-22 16:00:00,20,114162,71.3,Dr.Singh,Feb,Middle-Aged,High
+1160,86,Female,Orthopedics,Diabetes,2023-02-23 00:00:00,9,125927,78.2,Dr.Khan,Feb,Senior,High
+1161,28,Male,Orthopedics,Migraine,2023-02-23 08:00:00,11,13026,84.2,Dr.Singh,Feb,Adult,Budget
+1162,66,Female,Pediatrics,Diabetes,2023-02-23 16:00:00,24,69925,76.0,Dr.Khan,Feb,Senior,Moderate
+1163,42,Male,Orthopedics,Fever,2023-02-24 00:00:00,22,73842,76.7,Dr.Khan,Feb,Adult,Moderate
+1164,45,Male,Neurology,Diabetes,2023-02-24 08:00:00,1,38665,72.9,Dr.Verma,Feb,Middle-Aged,Moderate
+1165,62,Male,Neurology,Fever,2023-02-24 16:00:00,18,14277,82.0,Dr.Singh,Feb,Middle-Aged,Budget
+1166,57,Female,Orthopedics,Fracture,2023-02-25 00:00:00,6,178311,93.2,Dr.Singh,Feb,Middle-Aged,High
+1167,6,Male,General,Fracture,2023-02-25 08:00:00,27,183736,67.9,Dr.Singh,Feb,Child,High
+1168,28,Male,Pediatrics,Asthma,2023-02-25 16:00:00,2,53008,96.4,Dr.Sharma,Feb,Adult,Moderate
+1169,28,Female,Neurology,Asthma,2023-02-26 00:00:00,15,19683,86.9,Dr.Khan,Feb,Adult,Budget
+1170,44,Female,General,Heart Attack,2023-02-26 08:00:00,29,136742,92.1,Dr.Singh,Feb,Adult,High
+1171,84,Female,Orthopedics,Migraine,2023-02-26 16:00:00,26,153961,81.7,Dr.Sharma,Feb,Senior,High
+1172,30,Female,General,Heart Attack,2023-02-27 00:00:00,21,191684,90.4,Dr.Verma,Feb,Adult,High
+1173,62,Male,Cardiology,Fever,2023-02-27 08:00:00,14,180607,60.6,Dr.Singh,Feb,Middle-Aged,High
+1174,75,Male,Neurology,Heart Attack,2023-02-27 16:00:00,5,83542,91.9,Dr.Singh,Feb,Senior,High
+1175,89,Male,Orthopedics,Diabetes,2023-02-28 00:00:00,6,59319,61.6,Dr.Sharma,Feb,Senior,Moderate
+1176,62,Male,Pediatrics,Fever,2023-02-28 08:00:00,6,97067,94.7,Dr.Khan,Feb,Middle-Aged,High
+1177,1,Female,Orthopedics,Asthma,2023-02-28 16:00:00,30,157711,98.7,Dr.Verma,Feb,Child,High
+1178,27,Male,Pediatrics,Fracture,2023-03-01 00:00:00,22,152705,71.5,Dr.Singh,Mar,Adult,High
+1179,62,Male,Orthopedics,Asthma,2023-03-01 08:00:00,30,170732,68.2,Dr.Khan,Mar,Middle-Aged,High
+1180,77,Female,General,Migraine,2023-03-01 16:00:00,18,73975,89.8,Dr.Verma,Mar,Senior,Moderate
+1181,3,Male,General,Fever,2023-03-02 00:00:00,14,168244,69.9,Dr.Mehta,Mar,Child,High
+1182,70,Male,General,Fever,2023-03-02 08:00:00,10,195269,93.8,Dr.Mehta,Mar,Senior,High
+1183,72,Male,Cardiology,Diabetes,2023-03-02 16:00:00,14,106158,64.0,Dr.Verma,Mar,Senior,High
+1184,27,Male,Pediatrics,Migraine,2023-03-03 00:00:00,13,194919,64.9,Dr.Sharma,Mar,Adult,High
+1185,9,Male,General,Fracture,2023-03-03 08:00:00,30,16577,98.2,Dr.Verma,Mar,Child,Budget
+1186,62,Male,Cardiology,Fever,2023-03-03 16:00:00,3,82299,86.3,Dr.Verma,Mar,Middle-Aged,High
+1187,37,Female,Pediatrics,Fever,2023-03-04 00:00:00,30,25176,93.0,Dr.Sharma,Mar,Adult,Moderate
+1188,51,Female,Orthopedics,Diabetes,2023-03-04 08:00:00,6,180458,72.6,Dr.Sharma,Mar,Middle-Aged,High
+1189,44,Male,Cardiology,Heart Attack,2023-03-04 16:00:00,29,68972,86.4,Dr.Khan,Mar,Adult,Moderate
+1190,24,Male,Neurology,Fracture,2023-03-05 00:00:00,8,125018,83.2,Dr.Khan,Mar,Adult,High
+1191,79,Female,Cardiology,Asthma,2023-03-05 08:00:00,12,177075,83.5,Dr.Sharma,Mar,Senior,High
+1192,59,Male,Cardiology,Migraine,2023-03-05 16:00:00,13,24996,86.6,Dr.Mehta,Mar,Middle-Aged,Budget
+1193,32,Male,Pediatrics,Fever,2023-03-06 00:00:00,11,105922,82.4,Dr.Mehta,Mar,Adult,High
+1194,88,Male,Orthopedics,Fever,2023-03-06 08:00:00,12,91598,76.7,Dr.Verma,Mar,Senior,High
+1195,52,Female,Neurology,Asthma,2023-03-06 16:00:00,1,40931,70.8,Dr.Singh,Mar,Middle-Aged,Moderate
+1196,62,Male,General,Fracture,2023-03-07 00:00:00,17,129168,90.0,Dr.Verma,Mar,Middle-Aged,High
+1197,58,Female,General,Heart Attack,2023-03-07 08:00:00,16,171782,68.8,Dr.Verma,Mar,Middle-Aged,High
+1198,52,Male,Cardiology,Fever,2023-03-07 16:00:00,11,128099,87.0,Dr.Singh,Mar,Middle-Aged,High
+1199,12,Female,Pediatrics,Fracture,2023-03-08 00:00:00,13,39693,69.1,Dr.Sharma,Mar,Child,Moderate
+1200,39,Female,Pediatrics,Asthma,2023-03-08 08:00:00,18,171812,84.4,Dr.Mehta,Mar,Adult,High
+1201,2,Male,General,Diabetes,2023-03-08 16:00:00,11,113944,89.1,Dr.Verma,Mar,Child,High
+1202,3,Female,Neurology,Heart Attack,2023-03-09 00:00:00,28,22374,68.5,Dr.Singh,Mar,Child,Budget
+1203,56,Male,Orthopedics,Migraine,2023-03-09 08:00:00,12,86471,62.3,Dr.Khan,Mar,Middle-Aged,High
+1204,81,Female,Neurology,Fever,2023-03-09 16:00:00,6,50913,65.1,Dr.Verma,Mar,Senior,Moderate
+1205,59,Male,Orthopedics,Fracture,2023-03-10 00:00:00,9,128683,83.6,Dr.Mehta,Mar,Middle-Aged,High
+1206,2,Male,General,Diabetes,2023-03-10 08:00:00,16,49516,93.1,Dr.Sharma,Mar,Child,Moderate
+1207,2,Female,Orthopedics,Migraine,2023-03-10 16:00:00,4,92796,61.8,Dr.Verma,Mar,Child,High
+1208,54,Male,Pediatrics,Fracture,2023-03-11 00:00:00,3,31069,88.6,Dr.Verma,Mar,Middle-Aged,Moderate
+1209,87,Male,Cardiology,Fracture,2023-03-11 08:00:00,28,123333,73.3,Dr.Singh,Mar,Senior,High
+1210,1,Female,Cardiology,Migraine,2023-03-11 16:00:00,16,192305,78.7,Dr.Khan,Mar,Child,High
+1211,19,Male,General,Diabetes,2023-03-12 00:00:00,24,89811,96.2,Dr.Khan,Mar,Adult,High
+1212,2,Male,Pediatrics,Asthma,2023-03-12 08:00:00,27,195121,72.9,Dr.Sharma,Mar,Child,High
+1213,53,Female,Neurology,Diabetes,2023-03-12 16:00:00,26,123028,78.1,Dr.Mehta,Mar,Middle-Aged,High
+1214,44,Female,Pediatrics,Heart Attack,2023-03-13 00:00:00,30,44178,60.5,Dr.Sharma,Mar,Adult,Moderate
+1215,90,Male,Cardiology,Fever,2023-03-13 08:00:00,25,37821,63.2,Dr.Verma,Mar,Senior,Moderate
+1216,32,Male,Cardiology,Migraine,2023-03-13 16:00:00,12,187799,70.1,Dr.Verma,Mar,Adult,High
+1217,70,Female,Pediatrics,Asthma,2023-03-14 00:00:00,11,197007,61.1,Dr.Khan,Mar,Senior,High
+1218,32,Female,Pediatrics,Migraine,2023-03-14 08:00:00,5,21999,84.6,Dr.Mehta,Mar,Adult,Budget
+1219,68,Male,Cardiology,Migraine,2023-03-14 16:00:00,25,198594,76.6,Dr.Singh,Mar,Senior,High
+1220,55,Female,Neurology,Diabetes,2023-03-15 00:00:00,18,43712,81.4,Dr.Mehta,Mar,Middle-Aged,Moderate
+1221,75,Male,General,Fever,2023-03-15 08:00:00,19,176244,66.8,Dr.Verma,Mar,Senior,High
+1222,56,Male,General,Heart Attack,2023-03-15 16:00:00,23,38722,71.5,Dr.Singh,Mar,Middle-Aged,Moderate
+1223,17,Male,Pediatrics,Fracture,2023-03-16 00:00:00,23,15625,85.9,Dr.Mehta,Mar,Child,Budget
+1224,38,Male,General,Fracture,2023-03-16 08:00:00,6,11859,97.6,Dr.Mehta,Mar,Adult,Budget
+1225,24,Male,Cardiology,Migraine,2023-03-16 16:00:00,22,177681,62.0,Dr.Singh,Mar,Adult,High
+1226,69,Female,Cardiology,Fever,2023-03-17 00:00:00,18,179379,94.7,Dr.Verma,Mar,Senior,High
+1227,70,Female,Pediatrics,Asthma,2023-03-17 08:00:00,26,115986,82.5,Dr.Mehta,Mar,Senior,High
+1228,86,Female,Pediatrics,Diabetes,2023-03-17 16:00:00,6,26839,82.0,Dr.Singh,Mar,Senior,Moderate
+1229,11,Female,Pediatrics,Fever,2023-03-18 00:00:00,4,32216,79.5,Dr.Verma,Mar,Child,Moderate
+1230,16,Male,Neurology,Fever,2023-03-18 08:00:00,12,57953,62.7,Dr.Singh,Mar,Child,Moderate
+1231,73,Male,General,Diabetes,2023-03-18 16:00:00,19,196665,63.5,Dr.Singh,Mar,Senior,High
+1232,59,Male,Pediatrics,Migraine,2023-03-19 00:00:00,29,54522,83.4,Dr.Mehta,Mar,Middle-Aged,Moderate
+1233,70,Male,Orthopedics,Fever,2023-03-19 08:00:00,27,140958,73.3,Dr.Verma,Mar,Senior,High
+1234,80,Female,Orthopedics,Fracture,2023-03-19 16:00:00,29,116249,95.8,Dr.Mehta,Mar,Senior,High
+1235,3,Male,Cardiology,Diabetes,2023-03-20 00:00:00,2,12485,75.9,Dr.Sharma,Mar,Child,Budget
+1236,20,Male,General,Asthma,2023-03-20 08:00:00,17,167527,65.6,Dr.Sharma,Mar,Adult,High
+1237,59,Female,Pediatrics,Heart Attack,2023-03-20 16:00:00,11,152839,87.9,Dr.Verma,Mar,Middle-Aged,High
+1238,36,Female,Orthopedics,Migraine,2023-03-21 00:00:00,11,117701,71.4,Dr.Singh,Mar,Adult,High
+1239,19,Female,General,Diabetes,2023-03-21 08:00:00,21,164525,80.5,Dr.Mehta,Mar,Adult,High
+1240,90,Female,Cardiology,Heart Attack,2023-03-21 16:00:00,16,107638,87.2,Dr.Mehta,Mar,Senior,High
+1241,67,Male,Neurology,Heart Attack,2023-03-22 00:00:00,2,189514,95.1,Dr.Verma,Mar,Senior,High
+1242,19,Male,General,Asthma,2023-03-22 08:00:00,2,187949,90.9,Dr.Verma,Mar,Adult,High
+1243,20,Female,General,Fever,2023-03-22 16:00:00,23,17226,86.4,Dr.Sharma,Mar,Adult,Budget
+1244,71,Male,Neurology,Asthma,2023-03-23 00:00:00,8,98405,86.5,Dr.Khan,Mar,Senior,High
+1245,52,Male,General,Fever,2023-03-23 08:00:00,13,27588,96.9,Dr.Verma,Mar,Middle-Aged,Moderate
+1246,33,Male,Cardiology,Fever,2023-03-23 16:00:00,10,167781,71.5,Dr.Khan,Mar,Adult,High
+1247,40,Female,Cardiology,Diabetes,2023-03-24 00:00:00,8,183860,60.0,Dr.Verma,Mar,Adult,High
+1248,39,Male,Neurology,Diabetes,2023-03-24 08:00:00,30,42019,70.6,Dr.Singh,Mar,Adult,Moderate
+1249,82,Female,Pediatrics,Migraine,2023-03-24 16:00:00,4,181020,68.5,Dr.Singh,Mar,Senior,High
+1250,1,Male,Orthopedics,Fever,2023-03-25 00:00:00,15,70133,85.8,Dr.Sharma,Mar,Child,Moderate
+1251,11,Male,Pediatrics,Heart Attack,2023-03-25 08:00:00,30,119444,84.7,Dr.Sharma,Mar,Child,High
+1252,57,Male,General,Fracture,2023-03-25 16:00:00,1,122603,83.1,Dr.Khan,Mar,Middle-Aged,High
+1253,89,Female,Orthopedics,Migraine,2023-03-26 00:00:00,11,163598,60.6,Dr.Verma,Mar,Senior,High
+1254,50,Male,Neurology,Diabetes,2023-03-26 08:00:00,7,133585,88.4,Dr.Mehta,Mar,Middle-Aged,High
+1255,23,Female,Neurology,Asthma,2023-03-26 16:00:00,17,188270,72.6,Dr.Sharma,Mar,Adult,High
+1256,31,Female,Orthopedics,Migraine,2023-03-27 00:00:00,27,48395,85.9,Dr.Mehta,Mar,Adult,Moderate
+1257,42,Female,Cardiology,Migraine,2023-03-27 08:00:00,20,160103,81.7,Dr.Mehta,Mar,Adult,High
+1258,7,Male,Orthopedics,Migraine,2023-03-27 16:00:00,24,130814,73.4,Dr.Verma,Mar,Child,High
+1259,16,Male,General,Migraine,2023-03-28 00:00:00,18,173773,65.2,Dr.Khan,Mar,Child,High
+1260,90,Male,Cardiology,Fracture,2023-03-28 08:00:00,22,117599,63.7,Dr.Verma,Mar,Senior,High
+1261,60,Male,Neurology,Asthma,2023-03-28 16:00:00,29,30939,92.4,Dr.Sharma,Mar,Middle-Aged,Moderate
+1262,2,Female,Orthopedics,Asthma,2023-03-29 00:00:00,22,185217,95.8,Dr.Mehta,Mar,Child,High
+1263,1,Female,Pediatrics,Asthma,2023-03-29 08:00:00,12,156396,85.3,Dr.Verma,Mar,Child,High
+1264,48,Female,Pediatrics,Fever,2023-03-29 16:00:00,9,158939,64.0,Dr.Verma,Mar,Middle-Aged,High
+1265,12,Male,General,Heart Attack,2023-03-30 00:00:00,5,5203,75.7,Dr.Verma,Mar,Child,Budget
+1266,69,Female,Pediatrics,Asthma,2023-03-30 08:00:00,10,152616,88.4,Dr.Sharma,Mar,Senior,High
+1267,37,Male,Orthopedics,Migraine,2023-03-30 16:00:00,4,151971,90.4,Dr.Khan,Mar,Adult,High
+1268,32,Female,Orthopedics,Migraine,2023-03-31 00:00:00,5,34063,64.6,Dr.Verma,Mar,Adult,Moderate
+1269,9,Male,Pediatrics,Asthma,2023-03-31 08:00:00,28,95880,60.0,Dr.Sharma,Mar,Child,High
+1270,19,Male,Orthopedics,Asthma,2023-03-31 16:00:00,28,8748,87.8,Dr.Mehta,Mar,Adult,Budget
+1271,48,Female,General,Migraine,2023-04-01 00:00:00,10,122269,73.9,Dr.Singh,Apr,Middle-Aged,High
+1272,80,Female,Cardiology,Fever,2023-04-01 08:00:00,11,85764,69.9,Dr.Sharma,Apr,Senior,High
+1273,3,Female,General,Diabetes,2023-04-01 16:00:00,21,156956,60.5,Dr.Singh,Apr,Child,High
+1274,20,Female,General,Diabetes,2023-04-02 00:00:00,24,161255,81.1,Dr.Verma,Apr,Adult,High
+1275,24,Male,Orthopedics,Asthma,2023-04-02 08:00:00,10,113036,93.2,Dr.Verma,Apr,Adult,High
+1276,54,Female,Cardiology,Fracture,2023-04-02 16:00:00,28,155331,97.3,Dr.Sharma,Apr,Middle-Aged,High
+1277,33,Female,Orthopedics,Asthma,2023-04-03 00:00:00,8,172031,82.1,Dr.Singh,Apr,Adult,High
+1278,24,Female,Neurology,Asthma,2023-04-03 08:00:00,2,121525,80.1,Dr.Verma,Apr,Adult,High
+1279,75,Male,Orthopedics,Diabetes,2023-04-03 16:00:00,23,169529,63.3,Dr.Mehta,Apr,Senior,High
+1280,72,Male,Orthopedics,Migraine,2023-04-04 00:00:00,8,90679,81.4,Dr.Khan,Apr,Senior,High
+1281,36,Female,Orthopedics,Asthma,2023-04-04 08:00:00,16,130829,74.8,Dr.Khan,Apr,Adult,High
+1282,38,Male,Cardiology,Migraine,2023-04-04 16:00:00,27,133216,83.7,Dr.Verma,Apr,Adult,High
+1283,84,Female,Orthopedics,Migraine,2023-04-05 00:00:00,22,138175,75.2,Dr.Singh,Apr,Senior,High
+1284,89,Male,Cardiology,Fracture,2023-04-05 08:00:00,5,70901,69.4,Dr.Verma,Apr,Senior,Moderate
+1285,25,Male,Pediatrics,Migraine,2023-04-05 16:00:00,27,180607,63.7,Dr.Singh,Apr,Adult,High
+1286,18,Male,Neurology,Diabetes,2023-04-06 00:00:00,25,152175,72.3,Dr.Mehta,Apr,Adult,High
+1287,82,Male,Cardiology,Fever,2023-04-06 08:00:00,29,103046,63.8,Dr.Singh,Apr,Senior,High
+1288,66,Female,Pediatrics,Fever,2023-04-06 16:00:00,3,95012,66.9,Dr.Verma,Apr,Senior,High
+1289,54,Female,Cardiology,Heart Attack,2023-04-07 00:00:00,12,83278,98.5,Dr.Mehta,Apr,Middle-Aged,High
+1290,35,Female,Cardiology,Asthma,2023-04-07 08:00:00,13,17391,77.3,Dr.Sharma,Apr,Adult,Budget
+1291,80,Male,Neurology,Diabetes,2023-04-07 16:00:00,13,107476,80.7,Dr.Khan,Apr,Senior,High
+1292,61,Female,General,Migraine,2023-04-08 00:00:00,10,164973,94.1,Dr.Verma,Apr,Middle-Aged,High
+1293,41,Female,General,Fever,2023-04-08 08:00:00,4,125721,98.8,Dr.Verma,Apr,Adult,High
+1294,33,Female,Cardiology,Diabetes,2023-04-08 16:00:00,9,102537,82.7,Dr.Verma,Apr,Adult,High
+1295,68,Male,Orthopedics,Fever,2023-04-09 00:00:00,22,86159,91.7,Dr.Mehta,Apr,Senior,High
+1296,33,Male,Pediatrics,Migraine,2023-04-09 08:00:00,24,136040,72.8,Dr.Sharma,Apr,Adult,High
+1297,14,Male,Orthopedics,Fever,2023-04-09 16:00:00,23,186429,71.9,Dr.Singh,Apr,Child,High
+1298,21,Female,Orthopedics,Asthma,2023-04-10 00:00:00,27,174509,75.7,Dr.Sharma,Apr,Adult,High
+1299,48,Female,Cardiology,Asthma,2023-04-10 08:00:00,2,40503,86.2,Dr.Mehta,Apr,Middle-Aged,Moderate
+1300,20,Female,Cardiology,Heart Attack,2023-04-10 16:00:00,19,80403,86.6,Dr.Verma,Apr,Adult,High
+1301,8,Male,Cardiology,Heart Attack,2023-04-11 00:00:00,1,177330,72.3,Dr.Khan,Apr,Child,High
+1302,7,Male,Cardiology,Fever,2023-04-11 08:00:00,25,169796,65.2,Dr.Verma,Apr,Child,High
+1303,67,Female,General,Diabetes,2023-04-11 16:00:00,29,69286,84.7,Dr.Singh,Apr,Senior,Moderate
+1304,17,Male,Cardiology,Asthma,2023-04-12 00:00:00,7,79842,65.0,Dr.Khan,Apr,Child,Moderate
+1305,33,Male,General,Diabetes,2023-04-12 08:00:00,17,109927,82.6,Dr.Verma,Apr,Adult,High
+1306,48,Male,General,Diabetes,2023-04-12 16:00:00,3,19908,87.0,Dr.Khan,Apr,Middle-Aged,Budget
+1307,76,Male,Cardiology,Fever,2023-04-13 00:00:00,20,186698,87.3,Dr.Sharma,Apr,Senior,High
+1308,59,Female,Neurology,Diabetes,2023-04-13 08:00:00,20,42228,89.4,Dr.Mehta,Apr,Middle-Aged,Moderate
+1309,86,Male,Pediatrics,Asthma,2023-04-13 16:00:00,21,28386,94.0,Dr.Verma,Apr,Senior,Moderate
+1310,22,Male,Orthopedics,Migraine,2023-04-14 00:00:00,30,182826,79.5,Dr.Singh,Apr,Adult,High
+1311,30,Male,General,Heart Attack,2023-04-14 08:00:00,3,33302,88.5,Dr.Sharma,Apr,Adult,Moderate
+1312,38,Male,Pediatrics,Migraine,2023-04-14 16:00:00,3,65815,84.1,Dr.Verma,Apr,Adult,Moderate
+1313,51,Female,Neurology,Diabetes,2023-04-15 00:00:00,17,68344,67.3,Dr.Sharma,Apr,Middle-Aged,Moderate
+1314,54,Female,Orthopedics,Migraine,2023-04-15 08:00:00,7,171690,61.0,Dr.Singh,Apr,Middle-Aged,High
+1315,8,Male,Orthopedics,Asthma,2023-04-15 16:00:00,27,116603,71.1,Dr.Verma,Apr,Child,High
+1316,27,Male,General,Asthma,2023-04-16 00:00:00,26,66114,77.3,Dr.Singh,Apr,Adult,Moderate
+1317,27,Male,Cardiology,Diabetes,2023-04-16 08:00:00,14,30525,84.1,Dr.Khan,Apr,Adult,Moderate
+1318,21,Male,Neurology,Fever,2023-04-16 16:00:00,17,84818,93.1,Dr.Singh,Apr,Adult,High
+1319,30,Male,General,Migraine,2023-04-17 00:00:00,18,119589,67.7,Dr.Khan,Apr,Adult,High
+1320,28,Male,Neurology,Fever,2023-04-17 08:00:00,13,150406,64.9,Dr.Verma,Apr,Adult,High
+1321,64,Female,Cardiology,Fever,2023-04-17 16:00:00,20,99715,97.6,Dr.Khan,Apr,Middle-Aged,High
+1322,69,Male,Cardiology,Fracture,2023-04-18 00:00:00,29,198839,64.2,Dr.Verma,Apr,Senior,High
+1323,61,Female,General,Diabetes,2023-04-18 08:00:00,20,11644,78.7,Dr.Verma,Apr,Middle-Aged,Budget
+1324,48,Female,Cardiology,Heart Attack,2023-04-18 16:00:00,21,106154,82.8,Dr.Mehta,Apr,Middle-Aged,High
+1325,19,Male,Pediatrics,Asthma,2023-04-19 00:00:00,27,169005,81.1,Dr.Verma,Apr,Adult,High
+1326,4,Female,Orthopedics,Asthma,2023-04-19 08:00:00,18,48469,63.4,Dr.Khan,Apr,Child,Moderate
+1327,35,Female,General,Diabetes,2023-04-19 16:00:00,4,169759,62.2,Dr.Mehta,Apr,Adult,High
+1328,64,Female,Neurology,Heart Attack,2023-04-20 00:00:00,1,111609,64.1,Dr.Mehta,Apr,Middle-Aged,High
+1329,49,Female,Pediatrics,Asthma,2023-04-20 08:00:00,18,188728,82.8,Dr.Verma,Apr,Middle-Aged,High
+1330,17,Female,General,Diabetes,2023-04-20 16:00:00,1,153447,81.2,Dr.Singh,Apr,Child,High
+1331,44,Female,Cardiology,Asthma,2023-04-21 00:00:00,26,70206,69.1,Dr.Singh,Apr,Adult,Moderate
+1332,30,Male,Cardiology,Fever,2023-04-21 08:00:00,26,101462,84.9,Dr.Mehta,Apr,Adult,High
+1333,46,Female,Cardiology,Migraine,2023-04-21 16:00:00,13,172679,92.0,Dr.Verma,Apr,Middle-Aged,High
+1334,6,Female,Cardiology,Migraine,2023-04-22 00:00:00,20,88178,61.6,Dr.Singh,Apr,Child,High
+1335,37,Female,Neurology,Asthma,2023-04-22 08:00:00,20,160065,79.4,Dr.Verma,Apr,Adult,High
+1336,24,Male,Pediatrics,Fracture,2023-04-22 16:00:00,23,180458,86.9,Dr.Verma,Apr,Adult,High
+1337,46,Female,Orthopedics,Heart Attack,2023-04-23 00:00:00,10,182359,69.8,Dr.Mehta,Apr,Middle-Aged,High
+1338,53,Male,Neurology,Heart Attack,2023-04-23 08:00:00,27,91724,72.0,Dr.Mehta,Apr,Middle-Aged,High
+1339,60,Female,Neurology,Heart Attack,2023-04-23 16:00:00,11,101393,83.9,Dr.Sharma,Apr,Middle-Aged,High
+1340,63,Male,Orthopedics,Fever,2023-04-24 00:00:00,9,132314,95.0,Dr.Singh,Apr,Middle-Aged,High
+1341,85,Male,Orthopedics,Heart Attack,2023-04-24 08:00:00,9,81312,91.6,Dr.Singh,Apr,Senior,High
+1342,32,Female,Cardiology,Migraine,2023-04-24 16:00:00,5,80324,82.7,Dr.Singh,Apr,Adult,High
+1343,87,Female,Neurology,Fever,2023-04-25 00:00:00,26,76196,88.5,Dr.Khan,Apr,Senior,Moderate
+1344,33,Male,General,Diabetes,2023-04-25 08:00:00,1,75014,74.2,Dr.Verma,Apr,Adult,Moderate
+1345,67,Female,Orthopedics,Heart Attack,2023-04-25 16:00:00,17,144282,85.0,Dr.Mehta,Apr,Senior,High
+1346,18,Male,Orthopedics,Heart Attack,2023-04-26 00:00:00,22,146994,78.2,Dr.Singh,Apr,Adult,High
+1347,25,Male,Pediatrics,Diabetes,2023-04-26 08:00:00,2,172361,67.4,Dr.Sharma,Apr,Adult,High
+1348,54,Male,General,Heart Attack,2023-04-26 16:00:00,24,38340,87.4,Dr.Singh,Apr,Middle-Aged,Moderate
+1349,58,Male,General,Diabetes,2023-04-27 00:00:00,13,44850,81.7,Dr.Verma,Apr,Middle-Aged,Moderate
+1350,67,Male,Orthopedics,Fever,2023-04-27 08:00:00,9,193056,74.0,Dr.Verma,Apr,Senior,High
+1351,46,Female,Cardiology,Migraine,2023-04-27 16:00:00,29,118711,95.5,Dr.Mehta,Apr,Middle-Aged,High
+1352,24,Male,Pediatrics,Diabetes,2023-04-28 00:00:00,4,16094,60.8,Dr.Khan,Apr,Adult,Budget
+1353,32,Male,General,Fracture,2023-04-28 08:00:00,5,92959,72.3,Dr.Mehta,Apr,Adult,High
+1354,47,Female,Orthopedics,Diabetes,2023-04-28 16:00:00,11,169490,62.2,Dr.Singh,Apr,Middle-Aged,High
+1355,86,Male,General,Heart Attack,2023-04-29 00:00:00,24,10741,89.9,Dr.Sharma,Apr,Senior,Budget
+1356,23,Female,Pediatrics,Fever,2023-04-29 08:00:00,19,116585,87.4,Dr.Mehta,Apr,Adult,High
+1357,66,Female,Pediatrics,Asthma,2023-04-29 16:00:00,21,127564,72.9,Dr.Khan,Apr,Senior,High
+1358,27,Female,Neurology,Fever,2023-04-30 00:00:00,3,73798,86.4,Dr.Mehta,Apr,Adult,Moderate
+1359,2,Male,Orthopedics,Asthma,2023-04-30 08:00:00,12,121026,75.4,Dr.Verma,Apr,Child,High
+1360,90,Male,Pediatrics,Diabetes,2023-04-30 16:00:00,26,115130,89.5,Dr.Singh,Apr,Senior,High
+1361,17,Male,Neurology,Migraine,2023-05-01 00:00:00,19,27164,77.7,Dr.Singh,May,Child,Moderate
+1362,33,Female,Neurology,Fracture,2023-05-01 08:00:00,19,171667,76.1,Dr.Singh,May,Adult,High
+1363,9,Male,General,Fever,2023-05-01 16:00:00,13,35257,96.5,Dr.Singh,May,Child,Moderate
+1364,43,Female,General,Heart Attack,2023-05-02 00:00:00,28,150283,69.8,Dr.Singh,May,Adult,High
+1365,48,Male,Neurology,Asthma,2023-05-02 08:00:00,7,100989,64.7,Dr.Singh,May,Middle-Aged,High
+1366,39,Female,General,Heart Attack,2023-05-02 16:00:00,15,141304,82.8,Dr.Sharma,May,Adult,High
+1367,42,Male,Pediatrics,Migraine,2023-05-03 00:00:00,23,57691,97.8,Dr.Khan,May,Adult,Moderate
+1368,26,Male,Cardiology,Asthma,2023-05-03 08:00:00,7,84768,74.7,Dr.Singh,May,Adult,High
+1369,50,Male,Pediatrics,Fever,2023-05-03 16:00:00,26,161685,62.4,Dr.Khan,May,Middle-Aged,High
+1370,25,Female,Neurology,Diabetes,2023-05-04 00:00:00,8,19026,73.2,Dr.Singh,May,Adult,Budget
+1371,24,Female,Neurology,Heart Attack,2023-05-04 08:00:00,5,189607,79.7,Dr.Mehta,May,Adult,High
+1372,13,Male,Pediatrics,Migraine,2023-05-04 16:00:00,21,35908,66.3,Dr.Singh,May,Child,Moderate
+1373,60,Male,General,Fever,2023-05-05 00:00:00,14,188185,85.7,Dr.Verma,May,Middle-Aged,High
+1374,7,Female,General,Fever,2023-05-05 08:00:00,4,24610,98.9,Dr.Sharma,May,Child,Budget
+1375,57,Female,Neurology,Fever,2023-05-05 16:00:00,23,182718,77.6,Dr.Mehta,May,Middle-Aged,High
+1376,36,Female,Orthopedics,Fever,2023-05-06 00:00:00,10,68185,73.8,Dr.Mehta,May,Adult,Moderate
+1377,45,Male,General,Asthma,2023-05-06 08:00:00,20,77567,75.6,Dr.Verma,May,Middle-Aged,Moderate
+1378,20,Female,Pediatrics,Fever,2023-05-06 16:00:00,15,183646,64.5,Dr.Singh,May,Adult,High
+1379,65,Male,General,Heart Attack,2023-05-07 00:00:00,18,41182,94.4,Dr.Sharma,May,Senior,Moderate
+1380,8,Female,Pediatrics,Migraine,2023-05-07 08:00:00,20,121136,76.2,Dr.Mehta,May,Child,High
+1381,16,Male,Neurology,Asthma,2023-05-07 16:00:00,13,136642,75.1,Dr.Sharma,May,Child,High
+1382,14,Female,General,Fever,2023-05-08 00:00:00,29,24288,85.7,Dr.Mehta,May,Child,Budget
+1383,76,Female,Pediatrics,Fracture,2023-05-08 08:00:00,8,83824,77.2,Dr.Singh,May,Senior,High
+1384,87,Female,Neurology,Fracture,2023-05-08 16:00:00,9,165949,85.3,Dr.Mehta,May,Senior,High
+1385,15,Female,Orthopedics,Migraine,2023-05-09 00:00:00,16,89425,62.4,Dr.Mehta,May,Child,High
+1386,66,Female,Pediatrics,Diabetes,2023-05-09 08:00:00,19,5917,91.7,Dr.Khan,May,Senior,Budget
+1387,32,Male,Orthopedics,Diabetes,2023-05-09 16:00:00,16,80602,96.7,Dr.Singh,May,Adult,High
+1388,87,Female,Orthopedics,Asthma,2023-05-10 00:00:00,7,69575,85.3,Dr.Verma,May,Senior,Moderate
+1389,63,Female,Cardiology,Asthma,2023-05-10 08:00:00,14,77518,97.2,Dr.Verma,May,Middle-Aged,Moderate
+1390,86,Female,General,Asthma,2023-05-10 16:00:00,28,44104,65.9,Dr.Singh,May,Senior,Moderate
+1391,51,Male,Pediatrics,Diabetes,2023-05-11 00:00:00,14,154134,78.6,Dr.Verma,May,Middle-Aged,High
+1392,25,Female,Orthopedics,Fracture,2023-05-11 08:00:00,25,21999,83.5,Dr.Singh,May,Adult,Budget
+1393,58,Male,Cardiology,Diabetes,2023-05-11 16:00:00,27,197917,82.7,Dr.Verma,May,Middle-Aged,High
+1394,63,Female,Neurology,Heart Attack,2023-05-12 00:00:00,4,146013,75.7,Dr.Khan,May,Middle-Aged,High
+1395,62,Female,Pediatrics,Fever,2023-05-12 08:00:00,26,66169,73.2,Dr.Verma,May,Middle-Aged,Moderate
+1396,22,Male,Orthopedics,Asthma,2023-05-12 16:00:00,15,159542,64.9,Dr.Mehta,May,Adult,High
+1397,58,Female,General,Fracture,2023-05-13 00:00:00,3,134744,75.3,Dr.Singh,May,Middle-Aged,High
+1398,58,Male,Cardiology,Migraine,2023-05-13 08:00:00,5,115684,66.3,Dr.Sharma,May,Middle-Aged,High
+1399,86,Male,Orthopedics,Migraine,2023-05-13 16:00:00,1,64821,88.6,Dr.Sharma,May,Senior,Moderate
+1400,49,Female,General,Fever,2023-05-14 00:00:00,3,180507,68.1,Dr.Singh,May,Middle-Aged,High
+1401,52,Male,Orthopedics,Fracture,2023-05-14 08:00:00,15,140601,62.3,Dr.Khan,May,Middle-Aged,High
+1402,42,Female,Pediatrics,Diabetes,2023-05-14 16:00:00,24,17192,81.5,Dr.Verma,May,Adult,Budget
+1403,70,Female,Pediatrics,Diabetes,2023-05-15 00:00:00,27,79102,83.2,Dr.Khan,May,Senior,Moderate
+1404,15,Male,Pediatrics,Heart Attack,2023-05-15 08:00:00,8,119894,94.0,Dr.Sharma,May,Child,High
+1405,54,Male,Cardiology,Heart Attack,2023-05-15 16:00:00,29,91795,82.5,Dr.Singh,May,Middle-Aged,High
+1406,60,Male,Pediatrics,Diabetes,2023-05-16 00:00:00,4,170159,73.5,Dr.Singh,May,Middle-Aged,High
+1407,8,Male,General,Migraine,2023-05-16 08:00:00,2,71677,91.3,Dr.Khan,May,Child,Moderate
+1408,53,Female,Orthopedics,Asthma,2023-05-16 16:00:00,29,140699,81.1,Dr.Khan,May,Middle-Aged,High
+1409,60,Female,Neurology,Migraine,2023-05-17 00:00:00,24,192613,63.1,Dr.Verma,May,Middle-Aged,High
+1410,5,Male,General,Heart Attack,2023-05-17 08:00:00,24,139327,82.1,Dr.Mehta,May,Child,High
+1411,68,Female,General,Fever,2023-05-17 16:00:00,10,193505,95.4,Dr.Mehta,May,Senior,High
+1412,6,Female,Pediatrics,Diabetes,2023-05-18 00:00:00,4,141285,75.5,Dr.Verma,May,Child,High
+1413,47,Female,Cardiology,Heart Attack,2023-05-18 08:00:00,3,107412,71.6,Dr.Mehta,May,Middle-Aged,High
+1414,55,Female,Orthopedics,Heart Attack,2023-05-18 16:00:00,2,24404,65.6,Dr.Sharma,May,Middle-Aged,Budget
+1415,40,Male,Cardiology,Asthma,2023-05-19 00:00:00,25,121545,65.9,Dr.Mehta,May,Adult,High
+1416,52,Male,Orthopedics,Diabetes,2023-05-19 08:00:00,17,161452,76.9,Dr.Verma,May,Middle-Aged,High
+1417,16,Female,Orthopedics,Asthma,2023-05-19 16:00:00,23,155245,83.2,Dr.Mehta,May,Child,High
+1418,13,Male,Cardiology,Diabetes,2023-05-20 00:00:00,21,189099,63.1,Dr.Singh,May,Child,High
+1419,30,Male,General,Asthma,2023-05-20 08:00:00,24,28989,96.6,Dr.Khan,May,Adult,Moderate
+1420,19,Male,Orthopedics,Migraine,2023-05-20 16:00:00,20,113106,89.5,Dr.Sharma,May,Adult,High
+1421,17,Female,Cardiology,Fever,2023-05-21 00:00:00,23,29519,82.9,Dr.Singh,May,Child,Moderate
+1422,63,Female,Orthopedics,Fever,2023-05-21 08:00:00,13,27439,92.3,Dr.Singh,May,Middle-Aged,Moderate
+1423,19,Female,Neurology,Diabetes,2023-05-21 16:00:00,5,123570,63.1,Dr.Verma,May,Adult,High
+1424,58,Male,General,Fracture,2023-05-22 00:00:00,30,19995,78.6,Dr.Khan,May,Middle-Aged,Budget
+1425,55,Female,Pediatrics,Heart Attack,2023-05-22 08:00:00,21,28559,84.6,Dr.Khan,May,Middle-Aged,Moderate
+1426,90,Female,Orthopedics,Heart Attack,2023-05-22 16:00:00,30,94049,92.3,Dr.Sharma,May,Senior,High
+1427,90,Male,Neurology,Diabetes,2023-05-23 00:00:00,9,141093,90.6,Dr.Verma,May,Senior,High
+1428,62,Female,Pediatrics,Asthma,2023-05-23 08:00:00,25,103000,70.8,Dr.Sharma,May,Middle-Aged,High
+1429,23,Female,Pediatrics,Fracture,2023-05-23 16:00:00,29,157191,96.7,Dr.Mehta,May,Adult,High
+1430,9,Male,Orthopedics,Migraine,2023-05-24 00:00:00,25,187611,64.8,Dr.Singh,May,Child,High
+1431,12,Male,Cardiology,Asthma,2023-05-24 08:00:00,28,44350,94.1,Dr.Sharma,May,Child,Moderate
+1432,1,Male,Orthopedics,Asthma,2023-05-24 16:00:00,22,182295,97.9,Dr.Singh,May,Child,High
+1433,58,Female,Neurology,Diabetes,2023-05-25 00:00:00,6,30517,66.9,Dr.Verma,May,Middle-Aged,Moderate
+1434,1,Female,Pediatrics,Diabetes,2023-05-25 08:00:00,5,158322,88.2,Dr.Mehta,May,Child,High
+1435,34,Female,Orthopedics,Heart Attack,2023-05-25 16:00:00,25,94132,61.6,Dr.Verma,May,Adult,High
+1436,48,Male,Cardiology,Diabetes,2023-05-26 00:00:00,10,190271,75.8,Dr.Mehta,May,Middle-Aged,High
+1437,89,Male,Orthopedics,Diabetes,2023-05-26 08:00:00,8,64546,80.1,Dr.Mehta,May,Senior,Moderate
+1438,1,Female,General,Diabetes,2023-05-26 16:00:00,7,110686,82.6,Dr.Singh,May,Child,High
+1439,16,Female,Cardiology,Heart Attack,2023-05-27 00:00:00,7,93151,96.5,Dr.Verma,May,Child,High
+1440,61,Male,Neurology,Migraine,2023-05-27 08:00:00,6,8327,86.2,Dr.Verma,May,Middle-Aged,Budget
+1441,64,Male,Pediatrics,Migraine,2023-05-27 16:00:00,21,125318,78.8,Dr.Sharma,May,Middle-Aged,High
+1442,63,Male,Orthopedics,Diabetes,2023-05-28 00:00:00,29,165840,91.6,Dr.Verma,May,Middle-Aged,High
+1443,69,Male,Cardiology,Heart Attack,2023-05-28 08:00:00,20,178860,97.1,Dr.Sharma,May,Senior,High
+1444,22,Female,General,Migraine,2023-05-28 16:00:00,3,120945,60.9,Dr.Khan,May,Adult,High
+1445,67,Male,Cardiology,Asthma,2023-05-29 00:00:00,19,51830,98.3,Dr.Khan,May,Senior,Moderate
+1446,76,Female,General,Migraine,2023-05-29 08:00:00,22,57446,63.4,Dr.Khan,May,Senior,Moderate
+1447,26,Female,Neurology,Migraine,2023-05-29 16:00:00,15,151232,91.8,Dr.Verma,May,Adult,High
+1448,16,Female,Pediatrics,Heart Attack,2023-05-30 00:00:00,4,192655,70.9,Dr.Verma,May,Child,High
+1449,51,Male,Neurology,Asthma,2023-05-30 08:00:00,28,170070,65.2,Dr.Sharma,May,Middle-Aged,High
+1450,86,Male,Orthopedics,Heart Attack,2023-05-30 16:00:00,12,163302,77.2,Dr.Mehta,May,Senior,High
+1451,57,Male,Cardiology,Diabetes,2023-05-31 00:00:00,6,145148,85.1,Dr.Sharma,May,Middle-Aged,High
+1452,29,Male,General,Fever,2023-05-31 08:00:00,19,74341,74.9,Dr.Khan,May,Adult,Moderate
+1453,78,Female,General,Migraine,2023-05-31 16:00:00,4,36085,62.1,Dr.Sharma,May,Senior,Moderate
+1454,69,Male,Cardiology,Fever,2023-06-01 00:00:00,15,60571,83.4,Dr.Mehta,Jun,Senior,Moderate
+1455,47,Male,Cardiology,Heart Attack,2023-06-01 08:00:00,9,150787,95.2,Dr.Verma,Jun,Middle-Aged,High
+1456,62,Female,Orthopedics,Heart Attack,2023-06-01 16:00:00,5,133308,74.9,Dr.Sharma,Jun,Middle-Aged,High
+1457,69,Male,Neurology,Heart Attack,2023-06-02 00:00:00,13,10750,68.4,Dr.Khan,Jun,Senior,Budget
+1458,76,Female,General,Fever,2023-06-02 08:00:00,23,118931,77.3,Dr.Khan,Jun,Senior,High
+1459,16,Female,Orthopedics,Heart Attack,2023-06-02 16:00:00,26,83768,61.9,Dr.Verma,Jun,Child,High
+1460,90,Female,Neurology,Diabetes,2023-06-03 00:00:00,18,40903,92.0,Dr.Sharma,Jun,Senior,Moderate
+1461,90,Female,Orthopedics,Heart Attack,2023-06-03 08:00:00,30,168165,92.2,Dr.Mehta,Jun,Senior,High
+1462,48,Female,General,Fracture,2023-06-03 16:00:00,30,96036,82.9,Dr.Verma,Jun,Middle-Aged,High
+1463,85,Female,Cardiology,Fever,2023-06-04 00:00:00,5,92954,73.8,Dr.Sharma,Jun,Senior,High
+1464,39,Female,Cardiology,Fracture,2023-06-04 08:00:00,25,170386,91.2,Dr.Singh,Jun,Adult,High
+1465,33,Female,Neurology,Heart Attack,2023-06-04 16:00:00,16,184297,81.6,Dr.Khan,Jun,Adult,High
+1466,23,Male,Pediatrics,Diabetes,2023-06-05 00:00:00,27,88014,92.2,Dr.Mehta,Jun,Adult,High
+1467,10,Male,Neurology,Migraine,2023-06-05 08:00:00,19,171251,84.6,Dr.Mehta,Jun,Child,High
+1468,69,Male,Pediatrics,Asthma,2023-06-05 16:00:00,14,122305,90.6,Dr.Mehta,Jun,Senior,High
+1469,34,Male,Orthopedics,Asthma,2023-06-06 00:00:00,25,161410,83.3,Dr.Khan,Jun,Adult,High
+1470,52,Female,Orthopedics,Heart Attack,2023-06-06 08:00:00,30,37101,76.2,Dr.Sharma,Jun,Middle-Aged,Moderate
+1471,10,Male,General,Diabetes,2023-06-06 16:00:00,16,7775,97.4,Dr.Verma,Jun,Child,Budget
+1472,19,Female,Pediatrics,Fever,2023-06-07 00:00:00,27,116497,81.1,Dr.Sharma,Jun,Adult,High
+1473,58,Male,General,Fracture,2023-06-07 08:00:00,15,50619,83.6,Dr.Verma,Jun,Middle-Aged,Moderate
+1474,1,Male,Cardiology,Fracture,2023-06-07 16:00:00,22,181910,68.6,Dr.Mehta,Jun,Child,High
+1475,69,Male,Pediatrics,Fracture,2023-06-08 00:00:00,4,155611,84.4,Dr.Sharma,Jun,Senior,High
+1476,4,Female,Neurology,Fever,2023-06-08 08:00:00,7,62124,82.3,Dr.Mehta,Jun,Child,Moderate
+1477,16,Male,Cardiology,Asthma,2023-06-08 16:00:00,16,70149,67.2,Dr.Singh,Jun,Child,Moderate
+1478,24,Female,Cardiology,Diabetes,2023-06-09 00:00:00,24,31616,62.3,Dr.Mehta,Jun,Adult,Moderate
+1479,80,Female,Neurology,Fever,2023-06-09 08:00:00,22,190639,83.6,Dr.Mehta,Jun,Senior,High
+1480,2,Male,Cardiology,Fracture,2023-06-09 16:00:00,21,173171,89.8,Dr.Verma,Jun,Child,High
+1481,32,Male,Pediatrics,Heart Attack,2023-06-10 00:00:00,22,66799,80.4,Dr.Singh,Jun,Adult,Moderate
+1482,84,Male,General,Migraine,2023-06-10 08:00:00,21,95221,68.8,Dr.Mehta,Jun,Senior,High
+1483,24,Female,Cardiology,Fever,2023-06-10 16:00:00,8,119879,86.0,Dr.Mehta,Jun,Adult,High
+1484,12,Male,Pediatrics,Fever,2023-06-11 00:00:00,17,30479,63.1,Dr.Singh,Jun,Child,Moderate
+1485,50,Female,Orthopedics,Diabetes,2023-06-11 08:00:00,16,182244,77.2,Dr.Singh,Jun,Middle-Aged,High
+1486,35,Female,Pediatrics,Diabetes,2023-06-11 16:00:00,27,104165,66.4,Dr.Sharma,Jun,Adult,High
+1487,33,Male,General,Fever,2023-06-12 00:00:00,23,60863,67.2,Dr.Verma,Jun,Adult,Moderate
+1488,33,Male,Pediatrics,Fracture,2023-06-12 08:00:00,10,178115,67.9,Dr.Singh,Jun,Adult,High
+1489,61,Female,Neurology,Migraine,2023-06-12 16:00:00,10,87569,75.1,Dr.Singh,Jun,Middle-Aged,High
+1490,51,Female,General,Diabetes,2023-06-13 00:00:00,27,151480,62.0,Dr.Khan,Jun,Middle-Aged,High
+1491,43,Female,Orthopedics,Fracture,2023-06-13 08:00:00,2,194052,75.5,Dr.Singh,Jun,Adult,High
+1492,12,Male,Neurology,Heart Attack,2023-06-13 16:00:00,30,21351,80.0,Dr.Verma,Jun,Child,Budget
+1493,67,Female,Pediatrics,Diabetes,2023-06-14 00:00:00,9,140203,78.8,Dr.Mehta,Jun,Senior,High
+1494,65,Male,General,Fracture,2023-06-14 08:00:00,17,49825,74.9,Dr.Mehta,Jun,Senior,Moderate
+1495,33,Female,Orthopedics,Fracture,2023-06-14 16:00:00,11,16349,92.7,Dr.Mehta,Jun,Adult,Budget
+1496,40,Female,Neurology,Migraine,2023-06-15 00:00:00,10,197003,65.7,Dr.Mehta,Jun,Adult,High
+1497,74,Male,Orthopedics,Migraine,2023-06-15 08:00:00,22,49254,79.7,Dr.Khan,Jun,Senior,Moderate
+1498,43,Female,Pediatrics,Heart Attack,2023-06-15 16:00:00,25,43225,62.4,Dr.Singh,Jun,Adult,Moderate
+1499,44,Male,Orthopedics,Fracture,2023-06-16 00:00:00,17,17453,62.8,Dr.Mehta,Jun,Adult,Budget
+1500,29,Male,Cardiology,Asthma,2023-06-16 08:00:00,4,154886,82.4,Dr.Sharma,Jun,Adult,High
+1501,13,Female,Neurology,Fracture,2023-06-16 16:00:00,16,154335,82.1,Dr.Mehta,Jun,Child,High
+1502,12,Male,Orthopedics,Migraine,2023-06-17 00:00:00,20,82694,94.2,Dr.Singh,Jun,Child,High
+1503,46,Male,Pediatrics,Asthma,2023-06-17 08:00:00,15,20735,81.8,Dr.Mehta,Jun,Middle-Aged,Budget
+1504,2,Female,Pediatrics,Diabetes,2023-06-17 16:00:00,25,151902,97.4,Dr.Khan,Jun,Child,High
+1505,35,Male,Orthopedics,Diabetes,2023-06-18 00:00:00,27,52893,61.9,Dr.Verma,Jun,Adult,Moderate
+1506,87,Male,Pediatrics,Fever,2023-06-18 08:00:00,21,180745,63.8,Dr.Verma,Jun,Senior,High
+1507,81,Male,General,Migraine,2023-06-18 16:00:00,5,132006,61.7,Dr.Singh,Jun,Senior,High
+1508,90,Female,General,Fever,2023-06-19 00:00:00,6,50066,67.2,Dr.Verma,Jun,Senior,Moderate
+1509,8,Male,General,Asthma,2023-06-19 08:00:00,17,139445,81.1,Dr.Verma,Jun,Child,High
+1510,26,Female,Cardiology,Migraine,2023-06-19 16:00:00,1,146407,85.2,Dr.Sharma,Jun,Adult,High
+1511,74,Female,Orthopedics,Heart Attack,2023-06-20 00:00:00,25,159813,61.8,Dr.Singh,Jun,Senior,High
+1512,90,Male,Cardiology,Fracture,2023-06-20 08:00:00,19,15692,96.9,Dr.Singh,Jun,Senior,Budget
+1513,34,Male,Pediatrics,Heart Attack,2023-06-20 16:00:00,4,183367,92.8,Dr.Verma,Jun,Adult,High
+1514,7,Male,Cardiology,Asthma,2023-06-21 00:00:00,17,50541,71.6,Dr.Verma,Jun,Child,Moderate
+1515,68,Female,Pediatrics,Migraine,2023-06-21 08:00:00,9,170129,63.0,Dr.Verma,Jun,Senior,High
+1516,58,Male,Pediatrics,Asthma,2023-06-21 16:00:00,24,71983,66.6,Dr.Khan,Jun,Middle-Aged,Moderate
+1517,75,Male,Neurology,Fracture,2023-06-22 00:00:00,2,155655,65.0,Dr.Mehta,Jun,Senior,High
+1518,29,Male,General,Diabetes,2023-06-22 08:00:00,8,158837,64.8,Dr.Khan,Jun,Adult,High
+1519,36,Male,Pediatrics,Diabetes,2023-06-22 16:00:00,15,195359,80.2,Dr.Singh,Jun,Adult,High
+1520,89,Male,Neurology,Asthma,2023-06-23 00:00:00,7,159978,69.6,Dr.Sharma,Jun,Senior,High
+1521,21,Female,General,Fever,2023-06-23 08:00:00,27,125747,74.0,Dr.Mehta,Jun,Adult,High
+1522,36,Female,Pediatrics,Migraine,2023-06-23 16:00:00,6,90103,98.6,Dr.Sharma,Jun,Adult,High
+1523,10,Male,Pediatrics,Migraine,2023-06-24 00:00:00,1,182597,86.7,Dr.Singh,Jun,Child,High
+1524,73,Male,Cardiology,Diabetes,2023-06-24 08:00:00,15,174302,97.0,Dr.Singh,Jun,Senior,High
+1525,24,Male,Cardiology,Heart Attack,2023-06-24 16:00:00,23,155592,65.6,Dr.Sharma,Jun,Adult,High
+1526,64,Male,General,Fracture,2023-06-25 00:00:00,26,188006,74.9,Dr.Sharma,Jun,Middle-Aged,High
+1527,49,Female,Pediatrics,Heart Attack,2023-06-25 08:00:00,7,30566,81.6,Dr.Sharma,Jun,Middle-Aged,Moderate
+1528,36,Male,Orthopedics,Heart Attack,2023-06-25 16:00:00,29,78193,63.0,Dr.Singh,Jun,Adult,Moderate
+1529,82,Female,Cardiology,Asthma,2023-06-26 00:00:00,30,166206,60.2,Dr.Verma,Jun,Senior,High
+1530,24,Female,General,Diabetes,2023-06-26 08:00:00,25,146417,86.1,Dr.Sharma,Jun,Adult,High
+1531,23,Male,Pediatrics,Diabetes,2023-06-26 16:00:00,17,126015,85.0,Dr.Mehta,Jun,Adult,High
+1532,62,Female,Pediatrics,Diabetes,2023-06-27 00:00:00,2,177257,76.0,Dr.Singh,Jun,Middle-Aged,High
+1533,37,Female,Orthopedics,Asthma,2023-06-27 08:00:00,27,135956,79.1,Dr.Khan,Jun,Adult,High
+1534,12,Female,General,Fever,2023-06-27 16:00:00,9,75744,76.2,Dr.Khan,Jun,Child,Moderate
+1535,55,Female,Pediatrics,Heart Attack,2023-06-28 00:00:00,29,38455,60.9,Dr.Mehta,Jun,Middle-Aged,Moderate
+1536,13,Male,Cardiology,Asthma,2023-06-28 08:00:00,9,164090,73.1,Dr.Verma,Jun,Child,High
+1537,23,Male,Orthopedics,Migraine,2023-06-28 16:00:00,13,59219,66.9,Dr.Sharma,Jun,Adult,Moderate
+1538,89,Female,General,Fracture,2023-06-29 00:00:00,6,50991,63.8,Dr.Singh,Jun,Senior,Moderate
+1539,30,Male,Orthopedics,Fever,2023-06-29 08:00:00,6,78616,97.3,Dr.Sharma,Jun,Adult,Moderate
+1540,17,Male,Cardiology,Migraine,2023-06-29 16:00:00,20,92438,83.4,Dr.Singh,Jun,Child,High
+1541,62,Male,General,Heart Attack,2023-06-30 00:00:00,20,121841,88.4,Dr.Khan,Jun,Middle-Aged,High
+1542,84,Male,Orthopedics,Diabetes,2023-06-30 08:00:00,21,145558,72.3,Dr.Sharma,Jun,Senior,High
+1543,89,Male,Neurology,Heart Attack,2023-06-30 16:00:00,3,174934,75.3,Dr.Mehta,Jun,Senior,High
+1544,86,Female,Cardiology,Asthma,2023-07-01 00:00:00,17,63870,69.2,Dr.Verma,Jul,Senior,Moderate
+1545,13,Male,Cardiology,Fracture,2023-07-01 08:00:00,17,91694,63.8,Dr.Mehta,Jul,Child,High
+1546,59,Male,Cardiology,Asthma,2023-07-01 16:00:00,12,48856,67.0,Dr.Verma,Jul,Middle-Aged,Moderate
+1547,19,Male,Neurology,Fever,2023-07-02 00:00:00,16,106407,91.1,Dr.Sharma,Jul,Adult,High
+1548,49,Male,Neurology,Fever,2023-07-02 08:00:00,15,36379,86.4,Dr.Sharma,Jul,Middle-Aged,Moderate
+1549,12,Female,Pediatrics,Fracture,2023-07-02 16:00:00,13,69729,81.3,Dr.Verma,Jul,Child,Moderate
+1550,61,Female,Orthopedics,Migraine,2023-07-03 00:00:00,23,164450,78.5,Dr.Khan,Jul,Middle-Aged,High
+1551,19,Female,Pediatrics,Migraine,2023-07-03 08:00:00,1,59353,96.0,Dr.Singh,Jul,Adult,Moderate
+1552,76,Female,Orthopedics,Fever,2023-07-03 16:00:00,17,186068,62.8,Dr.Mehta,Jul,Senior,High
+1553,9,Male,Neurology,Fever,2023-07-04 00:00:00,3,19031,70.9,Dr.Mehta,Jul,Child,Budget
+1554,71,Female,Neurology,Diabetes,2023-07-04 08:00:00,26,70982,73.6,Dr.Mehta,Jul,Senior,Moderate
+1555,28,Male,Pediatrics,Migraine,2023-07-04 16:00:00,15,41683,90.5,Dr.Sharma,Jul,Adult,Moderate
+1556,78,Male,General,Fracture,2023-07-05 00:00:00,4,119091,98.7,Dr.Mehta,Jul,Senior,High
+1557,52,Male,Pediatrics,Migraine,2023-07-05 08:00:00,4,122797,69.4,Dr.Singh,Jul,Middle-Aged,High
+1558,83,Male,Orthopedics,Diabetes,2023-07-05 16:00:00,18,153690,94.1,Dr.Singh,Jul,Senior,High
+1559,16,Male,Pediatrics,Asthma,2023-07-06 00:00:00,17,11587,92.4,Dr.Verma,Jul,Child,Budget
+1560,69,Female,Cardiology,Fever,2023-07-06 08:00:00,19,67790,68.8,Dr.Sharma,Jul,Senior,Moderate
+1561,12,Female,Orthopedics,Fever,2023-07-06 16:00:00,11,36480,75.6,Dr.Singh,Jul,Child,Moderate
+1562,25,Female,Orthopedics,Diabetes,2023-07-07 00:00:00,20,156599,76.0,Dr.Khan,Jul,Adult,High
+1563,52,Female,General,Fracture,2023-07-07 08:00:00,3,28569,98.2,Dr.Sharma,Jul,Middle-Aged,Moderate
+1564,85,Male,Neurology,Fever,2023-07-07 16:00:00,8,16151,67.1,Dr.Sharma,Jul,Senior,Budget
+1565,53,Female,Orthopedics,Heart Attack,2023-07-08 00:00:00,14,195246,91.2,Dr.Singh,Jul,Middle-Aged,High
+1566,23,Male,Neurology,Fever,2023-07-08 08:00:00,26,49739,73.0,Dr.Khan,Jul,Adult,Moderate
+1567,16,Female,Pediatrics,Heart Attack,2023-07-08 16:00:00,1,37954,88.5,Dr.Verma,Jul,Child,Moderate
+1568,57,Male,Cardiology,Diabetes,2023-07-09 00:00:00,14,114373,76.4,Dr.Singh,Jul,Middle-Aged,High
+1569,39,Male,General,Diabetes,2023-07-09 08:00:00,2,171375,82.6,Dr.Khan,Jul,Adult,High
+1570,53,Female,Neurology,Fever,2023-07-09 16:00:00,29,39700,92.5,Dr.Sharma,Jul,Middle-Aged,Moderate
+1571,42,Male,Orthopedics,Migraine,2023-07-10 00:00:00,23,128728,91.4,Dr.Khan,Jul,Adult,High
+1572,58,Male,Neurology,Heart Attack,2023-07-10 08:00:00,4,71788,93.8,Dr.Sharma,Jul,Middle-Aged,Moderate
+1573,39,Female,Orthopedics,Fracture,2023-07-10 16:00:00,24,76045,62.3,Dr.Singh,Jul,Adult,Moderate
+1574,14,Male,Neurology,Fever,2023-07-11 00:00:00,27,173914,87.0,Dr.Singh,Jul,Child,High
+1575,5,Female,Orthopedics,Fracture,2023-07-11 08:00:00,29,149972,65.5,Dr.Mehta,Jul,Child,High
+1576,35,Female,Pediatrics,Fever,2023-07-11 16:00:00,19,132992,76.2,Dr.Mehta,Jul,Adult,High
+1577,87,Female,Orthopedics,Migraine,2023-07-12 00:00:00,6,85059,81.4,Dr.Mehta,Jul,Senior,High
+1578,75,Male,Orthopedics,Migraine,2023-07-12 08:00:00,25,6881,75.7,Dr.Singh,Jul,Senior,Budget
+1579,18,Male,Cardiology,Migraine,2023-07-12 16:00:00,1,169109,80.3,Dr.Verma,Jul,Adult,High
+1580,76,Male,Orthopedics,Asthma,2023-07-13 00:00:00,17,137702,98.9,Dr.Singh,Jul,Senior,High
+1581,9,Female,Cardiology,Migraine,2023-07-13 08:00:00,8,25789,65.3,Dr.Khan,Jul,Child,Moderate
+1582,74,Male,General,Diabetes,2023-07-13 16:00:00,19,131083,86.3,Dr.Singh,Jul,Senior,High
+1583,58,Female,Cardiology,Diabetes,2023-07-14 00:00:00,21,93059,75.4,Dr.Singh,Jul,Middle-Aged,High
+1584,17,Female,Pediatrics,Asthma,2023-07-14 08:00:00,1,51151,65.2,Dr.Sharma,Jul,Child,Moderate
+1585,7,Male,Cardiology,Heart Attack,2023-07-14 16:00:00,5,184992,66.2,Dr.Sharma,Jul,Child,High
+1586,46,Female,General,Fracture,2023-07-15 00:00:00,27,114388,97.0,Dr.Sharma,Jul,Middle-Aged,High
+1587,13,Male,Pediatrics,Fever,2023-07-15 08:00:00,16,8262,94.3,Dr.Singh,Jul,Child,Budget
+1588,40,Male,Neurology,Fever,2023-07-15 16:00:00,6,71981,95.4,Dr.Verma,Jul,Adult,Moderate
+1589,42,Male,Neurology,Asthma,2023-07-16 00:00:00,8,125951,98.7,Dr.Khan,Jul,Adult,High
+1590,9,Male,Cardiology,Diabetes,2023-07-16 08:00:00,13,128099,68.1,Dr.Khan,Jul,Child,High
+1591,50,Male,Cardiology,Fever,2023-07-16 16:00:00,16,86972,73.9,Dr.Verma,Jul,Middle-Aged,High
+1592,27,Female,General,Diabetes,2023-07-17 00:00:00,30,80485,86.1,Dr.Verma,Jul,Adult,High
+1593,66,Female,General,Heart Attack,2023-07-17 08:00:00,3,59722,78.9,Dr.Khan,Jul,Senior,Moderate
+1594,5,Female,Orthopedics,Fracture,2023-07-17 16:00:00,19,94499,76.3,Dr.Mehta,Jul,Child,High
+1595,29,Male,General,Heart Attack,2023-07-18 00:00:00,12,186890,74.0,Dr.Sharma,Jul,Adult,High
+1596,37,Male,Orthopedics,Asthma,2023-07-18 08:00:00,16,166004,83.2,Dr.Sharma,Jul,Adult,High
+1597,38,Male,Pediatrics,Migraine,2023-07-18 16:00:00,27,11901,82.4,Dr.Khan,Jul,Adult,Budget
+1598,83,Female,Cardiology,Migraine,2023-07-19 00:00:00,11,122473,66.3,Dr.Verma,Jul,Senior,High
+1599,8,Male,Pediatrics,Migraine,2023-07-19 08:00:00,10,13597,78.4,Dr.Mehta,Jul,Child,Budget
+1600,65,Female,General,Heart Attack,2023-07-19 16:00:00,25,134631,81.6,Dr.Khan,Jul,Senior,High
+1601,86,Female,Pediatrics,Fever,2023-07-20 00:00:00,20,68909,82.2,Dr.Sharma,Jul,Senior,Moderate
+1602,17,Male,Pediatrics,Fracture,2023-07-20 08:00:00,4,77391,68.2,Dr.Singh,Jul,Child,Moderate
+1603,71,Male,Pediatrics,Migraine,2023-07-20 16:00:00,12,144335,88.9,Dr.Verma,Jul,Senior,High
+1604,89,Female,General,Asthma,2023-07-21 00:00:00,23,68293,61.0,Dr.Singh,Jul,Senior,Moderate
+1605,45,Male,Pediatrics,Asthma,2023-07-21 08:00:00,2,161877,73.8,Dr.Khan,Jul,Middle-Aged,High
+1606,4,Female,Orthopedics,Migraine,2023-07-21 16:00:00,24,16874,90.4,Dr.Sharma,Jul,Child,Budget
+1607,36,Male,General,Migraine,2023-07-22 00:00:00,22,91402,82.0,Dr.Mehta,Jul,Adult,High
+1608,70,Male,Pediatrics,Fracture,2023-07-22 08:00:00,19,19079,70.2,Dr.Singh,Jul,Senior,Budget
+1609,31,Female,General,Migraine,2023-07-22 16:00:00,25,185922,87.1,Dr.Mehta,Jul,Adult,High
+1610,19,Male,Neurology,Fracture,2023-07-23 00:00:00,5,77779,82.1,Dr.Sharma,Jul,Adult,Moderate
+1611,61,Female,Orthopedics,Asthma,2023-07-23 08:00:00,8,100408,91.1,Dr.Singh,Jul,Middle-Aged,High
+1612,54,Male,Pediatrics,Migraine,2023-07-23 16:00:00,7,145090,88.7,Dr.Mehta,Jul,Middle-Aged,High
+1613,39,Female,Neurology,Heart Attack,2023-07-24 00:00:00,14,125606,83.8,Dr.Mehta,Jul,Adult,High
+1614,74,Female,Neurology,Heart Attack,2023-07-24 08:00:00,24,185572,79.0,Dr.Singh,Jul,Senior,High
+1615,90,Male,General,Asthma,2023-07-24 16:00:00,23,125062,65.2,Dr.Sharma,Jul,Senior,High
+1616,19,Female,Neurology,Fracture,2023-07-25 00:00:00,3,17100,70.2,Dr.Mehta,Jul,Adult,Budget
+1617,39,Male,Orthopedics,Heart Attack,2023-07-25 08:00:00,18,62021,76.3,Dr.Khan,Jul,Adult,Moderate
+1618,67,Male,Orthopedics,Fracture,2023-07-25 16:00:00,16,155872,83.4,Dr.Singh,Jul,Senior,High
+1619,45,Male,Cardiology,Heart Attack,2023-07-26 00:00:00,23,133126,80.0,Dr.Verma,Jul,Middle-Aged,High
+1620,13,Female,Orthopedics,Heart Attack,2023-07-26 08:00:00,19,199472,71.2,Dr.Verma,Jul,Child,High
+1621,58,Female,Neurology,Fracture,2023-07-26 16:00:00,19,97446,60.3,Dr.Sharma,Jul,Middle-Aged,High
+1622,20,Male,Orthopedics,Fever,2023-07-27 00:00:00,18,34437,79.4,Dr.Khan,Jul,Adult,Moderate
+1623,72,Male,General,Heart Attack,2023-07-27 08:00:00,20,182747,71.1,Dr.Mehta,Jul,Senior,High
+1624,61,Female,Cardiology,Migraine,2023-07-27 16:00:00,16,156014,88.6,Dr.Verma,Jul,Middle-Aged,High
+1625,39,Male,Neurology,Asthma,2023-07-28 00:00:00,8,25862,60.9,Dr.Sharma,Jul,Adult,Moderate
+1626,1,Male,Cardiology,Fever,2023-07-28 08:00:00,28,16669,82.8,Dr.Khan,Jul,Child,Budget
+1627,3,Female,Neurology,Fracture,2023-07-28 16:00:00,1,126219,96.7,Dr.Khan,Jul,Child,High
+1628,77,Male,General,Fever,2023-07-29 00:00:00,17,189844,66.8,Dr.Sharma,Jul,Senior,High
+1629,62,Female,Cardiology,Diabetes,2023-07-29 08:00:00,12,20916,78.4,Dr.Sharma,Jul,Middle-Aged,Budget
+1630,63,Male,Pediatrics,Diabetes,2023-07-29 16:00:00,30,15878,63.6,Dr.Mehta,Jul,Middle-Aged,Budget
+1631,25,Female,Neurology,Heart Attack,2023-07-30 00:00:00,21,7985,84.4,Dr.Sharma,Jul,Adult,Budget
+1632,56,Male,Pediatrics,Heart Attack,2023-07-30 08:00:00,11,46235,81.5,Dr.Mehta,Jul,Middle-Aged,Moderate
+1633,33,Male,Cardiology,Migraine,2023-07-30 16:00:00,5,23931,75.9,Dr.Mehta,Jul,Adult,Budget
+1634,38,Female,Pediatrics,Asthma,2023-07-31 00:00:00,27,97876,80.3,Dr.Singh,Jul,Adult,High
+1635,6,Male,Pediatrics,Fever,2023-07-31 08:00:00,12,5336,95.0,Dr.Khan,Jul,Child,Budget
+1636,58,Female,Cardiology,Diabetes,2023-07-31 16:00:00,17,47933,67.7,Dr.Khan,Jul,Middle-Aged,Moderate
+1637,44,Male,General,Heart Attack,2023-08-01 00:00:00,6,50536,60.9,Dr.Khan,Aug,Adult,Moderate
+1638,45,Female,Pediatrics,Asthma,2023-08-01 08:00:00,1,74504,93.6,Dr.Singh,Aug,Middle-Aged,Moderate
+1639,32,Female,Pediatrics,Fever,2023-08-01 16:00:00,5,104214,82.5,Dr.Mehta,Aug,Adult,High
+1640,45,Female,General,Heart Attack,2023-08-02 00:00:00,25,187220,94.7,Dr.Mehta,Aug,Middle-Aged,High
+1641,61,Female,Pediatrics,Heart Attack,2023-08-02 08:00:00,28,118936,83.3,Dr.Sharma,Aug,Middle-Aged,High
+1642,47,Male,Pediatrics,Diabetes,2023-08-02 16:00:00,14,21279,91.6,Dr.Singh,Aug,Middle-Aged,Budget
+1643,21,Male,Pediatrics,Diabetes,2023-08-03 00:00:00,5,108751,76.8,Dr.Sharma,Aug,Adult,High
+1644,80,Female,Orthopedics,Heart Attack,2023-08-03 08:00:00,22,109433,89.2,Dr.Singh,Aug,Senior,High
+1645,85,Female,General,Fracture,2023-08-03 16:00:00,24,76386,95.6,Dr.Sharma,Aug,Senior,Moderate
+1646,75,Female,Pediatrics,Heart Attack,2023-08-04 00:00:00,27,91124,82.3,Dr.Verma,Aug,Senior,High
+1647,36,Male,General,Asthma,2023-08-04 08:00:00,1,110750,67.1,Dr.Khan,Aug,Adult,High
+1648,19,Male,Neurology,Heart Attack,2023-08-04 16:00:00,30,82485,70.5,Dr.Khan,Aug,Adult,High
+1649,20,Male,Neurology,Migraine,2023-08-05 00:00:00,18,79055,67.7,Dr.Mehta,Aug,Adult,Moderate
+1650,57,Male,Pediatrics,Migraine,2023-08-05 08:00:00,16,96911,69.6,Dr.Verma,Aug,Middle-Aged,High
+1651,18,Female,General,Migraine,2023-08-05 16:00:00,9,103618,72.0,Dr.Khan,Aug,Adult,High
+1652,47,Female,General,Fracture,2023-08-06 00:00:00,19,190100,81.7,Dr.Mehta,Aug,Middle-Aged,High
+1653,49,Female,General,Fracture,2023-08-06 08:00:00,22,118892,82.9,Dr.Verma,Aug,Middle-Aged,High
+1654,14,Male,Orthopedics,Heart Attack,2023-08-06 16:00:00,5,76128,76.6,Dr.Khan,Aug,Child,Moderate
+1655,15,Male,Neurology,Migraine,2023-08-07 00:00:00,27,154180,84.0,Dr.Sharma,Aug,Child,High
+1656,31,Male,General,Fracture,2023-08-07 08:00:00,2,57495,63.2,Dr.Singh,Aug,Adult,Moderate
+1657,1,Female,General,Diabetes,2023-08-07 16:00:00,30,87806,63.4,Dr.Verma,Aug,Child,High
+1658,54,Female,Orthopedics,Heart Attack,2023-08-08 00:00:00,15,98185,66.7,Dr.Mehta,Aug,Middle-Aged,High
+1659,3,Male,Orthopedics,Asthma,2023-08-08 08:00:00,7,192902,80.2,Dr.Verma,Aug,Child,High
+1660,16,Female,General,Fever,2023-08-08 16:00:00,4,188581,68.3,Dr.Mehta,Aug,Child,High
+1661,87,Male,Cardiology,Heart Attack,2023-08-09 00:00:00,1,175591,71.0,Dr.Verma,Aug,Senior,High
+1662,57,Male,General,Fever,2023-08-09 08:00:00,13,54649,75.6,Dr.Mehta,Aug,Middle-Aged,Moderate
+1663,75,Female,General,Migraine,2023-08-09 16:00:00,20,170596,91.7,Dr.Khan,Aug,Senior,High
+1664,12,Male,Orthopedics,Fever,2023-08-10 00:00:00,22,169957,60.5,Dr.Sharma,Aug,Child,High
+1665,74,Female,Orthopedics,Migraine,2023-08-10 08:00:00,7,180441,85.3,Dr.Khan,Aug,Senior,High
+1666,16,Male,General,Diabetes,2023-08-10 16:00:00,15,100402,86.1,Dr.Sharma,Aug,Child,High
+1667,72,Female,General,Fever,2023-08-11 00:00:00,23,35676,91.1,Dr.Khan,Aug,Senior,Moderate
+1668,76,Female,General,Heart Attack,2023-08-11 08:00:00,14,69093,96.4,Dr.Khan,Aug,Senior,Moderate
+1669,24,Female,Orthopedics,Migraine,2023-08-11 16:00:00,23,183836,60.8,Dr.Verma,Aug,Adult,High
+1670,28,Male,General,Heart Attack,2023-08-12 00:00:00,19,186871,66.0,Dr.Singh,Aug,Adult,High
+1671,8,Male,General,Fracture,2023-08-12 08:00:00,22,84414,94.6,Dr.Mehta,Aug,Child,High
+1672,36,Female,Pediatrics,Migraine,2023-08-12 16:00:00,29,98095,77.9,Dr.Mehta,Aug,Adult,High
+1673,90,Female,Cardiology,Fever,2023-08-13 00:00:00,24,77307,82.0,Dr.Mehta,Aug,Senior,Moderate
+1674,8,Male,Neurology,Migraine,2023-08-13 08:00:00,20,100432,85.9,Dr.Sharma,Aug,Child,High
+1675,58,Male,Cardiology,Heart Attack,2023-08-13 16:00:00,29,36923,86.5,Dr.Mehta,Aug,Middle-Aged,Moderate
+1676,60,Male,Pediatrics,Diabetes,2023-08-14 00:00:00,24,122449,96.3,Dr.Mehta,Aug,Middle-Aged,High
+1677,50,Female,Neurology,Migraine,2023-08-14 08:00:00,18,52574,98.9,Dr.Verma,Aug,Middle-Aged,Moderate
+1678,28,Male,General,Fever,2023-08-14 16:00:00,10,179463,88.1,Dr.Khan,Aug,Adult,High
+1679,41,Male,Pediatrics,Fracture,2023-08-15 00:00:00,9,126757,71.2,Dr.Mehta,Aug,Adult,High
+1680,64,Female,General,Asthma,2023-08-15 08:00:00,25,58664,94.3,Dr.Singh,Aug,Middle-Aged,Moderate
+1681,27,Male,Orthopedics,Diabetes,2023-08-15 16:00:00,8,72384,61.9,Dr.Mehta,Aug,Adult,Moderate
+1682,63,Male,Pediatrics,Fracture,2023-08-16 00:00:00,26,36027,69.0,Dr.Sharma,Aug,Middle-Aged,Moderate
+1683,17,Male,Orthopedics,Migraine,2023-08-16 08:00:00,30,171536,95.0,Dr.Sharma,Aug,Child,High
+1684,73,Female,Pediatrics,Heart Attack,2023-08-16 16:00:00,29,39485,70.0,Dr.Sharma,Aug,Senior,Moderate
+1685,33,Female,Pediatrics,Heart Attack,2023-08-17 00:00:00,10,155528,68.6,Dr.Mehta,Aug,Adult,High
+1686,84,Female,Orthopedics,Fever,2023-08-17 08:00:00,17,40554,65.4,Dr.Verma,Aug,Senior,Moderate
+1687,77,Female,Neurology,Heart Attack,2023-08-17 16:00:00,2,51922,93.5,Dr.Singh,Aug,Senior,Moderate
+1688,29,Female,Cardiology,Diabetes,2023-08-18 00:00:00,6,18409,79.5,Dr.Mehta,Aug,Adult,Budget
+1689,13,Female,General,Heart Attack,2023-08-18 08:00:00,26,41639,86.3,Dr.Verma,Aug,Child,Moderate
+1690,46,Female,Pediatrics,Fever,2023-08-18 16:00:00,5,199699,69.3,Dr.Verma,Aug,Middle-Aged,High
+1691,35,Male,General,Asthma,2023-08-19 00:00:00,28,24692,89.6,Dr.Mehta,Aug,Adult,Budget
+1692,6,Male,Orthopedics,Migraine,2023-08-19 08:00:00,30,94037,89.6,Dr.Mehta,Aug,Child,High
+1693,82,Female,General,Migraine,2023-08-19 16:00:00,9,190272,72.2,Dr.Verma,Aug,Senior,High
+1694,69,Male,Orthopedics,Heart Attack,2023-08-20 00:00:00,5,193487,76.0,Dr.Verma,Aug,Senior,High
+1695,47,Male,General,Fracture,2023-08-20 08:00:00,18,23074,68.2,Dr.Verma,Aug,Middle-Aged,Budget
+1696,25,Female,Cardiology,Migraine,2023-08-20 16:00:00,26,151621,98.1,Dr.Mehta,Aug,Adult,High
+1697,66,Male,Cardiology,Asthma,2023-08-21 00:00:00,20,34963,85.2,Dr.Verma,Aug,Senior,Moderate
+1698,10,Male,Cardiology,Heart Attack,2023-08-21 08:00:00,9,57265,96.4,Dr.Sharma,Aug,Child,Moderate
+1699,56,Male,Cardiology,Fever,2023-08-21 16:00:00,17,21061,71.8,Dr.Mehta,Aug,Middle-Aged,Budget
+1700,30,Male,Cardiology,Asthma,2023-08-22 00:00:00,27,194298,90.5,Dr.Sharma,Aug,Adult,High
+1701,5,Male,Cardiology,Heart Attack,2023-08-22 08:00:00,17,164882,89.9,Dr.Khan,Aug,Child,High
+1702,33,Female,Orthopedics,Asthma,2023-08-22 16:00:00,12,196078,87.0,Dr.Mehta,Aug,Adult,High
+1703,65,Female,Pediatrics,Migraine,2023-08-23 00:00:00,7,118502,97.7,Dr.Khan,Aug,Senior,High
+1704,18,Female,General,Fever,2023-08-23 08:00:00,27,27800,75.3,Dr.Verma,Aug,Adult,Moderate
+1705,49,Male,Cardiology,Heart Attack,2023-08-23 16:00:00,3,121192,65.1,Dr.Verma,Aug,Middle-Aged,High
+1706,11,Female,Orthopedics,Diabetes,2023-08-24 00:00:00,10,112228,86.2,Dr.Singh,Aug,Child,High
+1707,85,Male,Orthopedics,Fever,2023-08-24 08:00:00,2,193839,88.4,Dr.Verma,Aug,Senior,High
+1708,26,Male,Orthopedics,Diabetes,2023-08-24 16:00:00,25,33054,82.4,Dr.Khan,Aug,Adult,Moderate
+1709,63,Male,Pediatrics,Asthma,2023-08-25 00:00:00,3,181469,68.1,Dr.Verma,Aug,Middle-Aged,High
+1710,89,Male,General,Fracture,2023-08-25 08:00:00,16,18233,79.7,Dr.Mehta,Aug,Senior,Budget
+1711,86,Female,Pediatrics,Fever,2023-08-25 16:00:00,2,161140,72.2,Dr.Verma,Aug,Senior,High
+1712,59,Female,Neurology,Asthma,2023-08-26 00:00:00,28,70727,76.7,Dr.Singh,Aug,Middle-Aged,Moderate
+1713,27,Male,Orthopedics,Diabetes,2023-08-26 08:00:00,24,95610,85.2,Dr.Verma,Aug,Adult,High
+1714,49,Female,Neurology,Migraine,2023-08-26 16:00:00,10,75453,89.1,Dr.Khan,Aug,Middle-Aged,Moderate
+1715,77,Male,Cardiology,Migraine,2023-08-27 00:00:00,6,109135,69.1,Dr.Khan,Aug,Senior,High
+1716,33,Female,Cardiology,Fracture,2023-08-27 08:00:00,22,161904,75.8,Dr.Verma,Aug,Adult,High
+1717,1,Female,Pediatrics,Fever,2023-08-27 16:00:00,26,113464,70.5,Dr.Khan,Aug,Child,High
+1718,21,Male,General,Fever,2023-08-28 00:00:00,11,18682,67.7,Dr.Khan,Aug,Adult,Budget
+1719,55,Female,Neurology,Fever,2023-08-28 08:00:00,23,159455,90.6,Dr.Singh,Aug,Middle-Aged,High
+1720,6,Male,General,Asthma,2023-08-28 16:00:00,7,63160,95.5,Dr.Mehta,Aug,Child,Moderate
+1721,81,Female,Pediatrics,Fracture,2023-08-29 00:00:00,27,28666,74.4,Dr.Singh,Aug,Senior,Moderate
+1722,69,Male,Cardiology,Fever,2023-08-29 08:00:00,29,63817,89.3,Dr.Sharma,Aug,Senior,Moderate
+1723,5,Male,General,Asthma,2023-08-29 16:00:00,15,96198,95.0,Dr.Singh,Aug,Child,High
+1724,3,Female,General,Migraine,2023-08-30 00:00:00,6,170714,93.0,Dr.Verma,Aug,Child,High
+1725,53,Female,Cardiology,Diabetes,2023-08-30 08:00:00,20,46830,67.1,Dr.Mehta,Aug,Middle-Aged,Moderate
+1726,23,Male,Neurology,Asthma,2023-08-30 16:00:00,27,15234,97.3,Dr.Verma,Aug,Adult,Budget
+1727,53,Female,Cardiology,Migraine,2023-08-31 00:00:00,9,62616,74.7,Dr.Sharma,Aug,Middle-Aged,Moderate
+1728,37,Female,General,Migraine,2023-08-31 08:00:00,22,14221,73.2,Dr.Mehta,Aug,Adult,Budget
+1729,74,Male,Neurology,Diabetes,2023-08-31 16:00:00,20,147482,62.4,Dr.Khan,Aug,Senior,High
+1730,74,Male,Neurology,Migraine,2023-09-01 00:00:00,12,197485,79.0,Dr.Singh,Sep,Senior,High
+1731,83,Female,Cardiology,Fracture,2023-09-01 08:00:00,19,6051,64.3,Dr.Verma,Sep,Senior,Budget
+1732,17,Male,General,Diabetes,2023-09-01 16:00:00,20,115529,69.7,Dr.Sharma,Sep,Child,High
+1733,85,Male,Pediatrics,Migraine,2023-09-02 00:00:00,3,81918,72.4,Dr.Khan,Sep,Senior,High
+1734,78,Male,General,Heart Attack,2023-09-02 08:00:00,15,83116,91.5,Dr.Singh,Sep,Senior,High
+1735,73,Female,Orthopedics,Asthma,2023-09-02 16:00:00,2,127226,94.1,Dr.Khan,Sep,Senior,High
+1736,1,Female,Pediatrics,Migraine,2023-09-03 00:00:00,30,192635,71.8,Dr.Singh,Sep,Child,High
+1737,51,Male,Neurology,Fracture,2023-09-03 08:00:00,21,49757,93.5,Dr.Mehta,Sep,Middle-Aged,Moderate
+1738,45,Female,Pediatrics,Fever,2023-09-03 16:00:00,2,126008,93.4,Dr.Khan,Sep,Middle-Aged,High
+1739,77,Male,Neurology,Migraine,2023-09-04 00:00:00,22,187329,89.8,Dr.Khan,Sep,Senior,High
+1740,4,Female,Neurology,Fever,2023-09-04 08:00:00,3,136379,65.7,Dr.Khan,Sep,Child,High
+1741,62,Male,Pediatrics,Heart Attack,2023-09-04 16:00:00,6,61889,86.9,Dr.Mehta,Sep,Middle-Aged,Moderate
+1742,65,Male,Neurology,Migraine,2023-09-05 00:00:00,15,40944,96.9,Dr.Sharma,Sep,Senior,Moderate
+1743,32,Female,Neurology,Diabetes,2023-09-05 08:00:00,27,104555,86.6,Dr.Singh,Sep,Adult,High
+1744,34,Male,Orthopedics,Fever,2023-09-05 16:00:00,10,43134,72.9,Dr.Khan,Sep,Adult,Moderate
+1745,72,Female,General,Heart Attack,2023-09-06 00:00:00,9,163395,79.5,Dr.Mehta,Sep,Senior,High
+1746,39,Female,General,Diabetes,2023-09-06 08:00:00,1,30954,85.2,Dr.Sharma,Sep,Adult,Moderate
+1747,26,Male,Orthopedics,Diabetes,2023-09-06 16:00:00,16,191093,79.9,Dr.Singh,Sep,Adult,High
+1748,34,Male,Pediatrics,Diabetes,2023-09-07 00:00:00,6,94959,64.7,Dr.Mehta,Sep,Adult,High
+1749,54,Female,Cardiology,Diabetes,2023-09-07 08:00:00,9,9992,72.2,Dr.Singh,Sep,Middle-Aged,Budget
+1750,3,Male,Cardiology,Migraine,2023-09-07 16:00:00,27,6961,91.3,Dr.Khan,Sep,Child,Budget
+1751,50,Male,Cardiology,Asthma,2023-09-08 00:00:00,4,17497,93.6,Dr.Sharma,Sep,Middle-Aged,Budget
+1752,12,Male,Orthopedics,Migraine,2023-09-08 08:00:00,27,168623,65.4,Dr.Mehta,Sep,Child,High
+1753,65,Male,Orthopedics,Migraine,2023-09-08 16:00:00,28,191827,97.1,Dr.Sharma,Sep,Senior,High
+1754,54,Male,Neurology,Heart Attack,2023-09-09 00:00:00,2,18255,72.8,Dr.Khan,Sep,Middle-Aged,Budget
+1755,5,Female,Cardiology,Heart Attack,2023-09-09 08:00:00,29,140639,85.8,Dr.Sharma,Sep,Child,High
+1756,57,Female,Pediatrics,Asthma,2023-09-09 16:00:00,4,53847,89.3,Dr.Sharma,Sep,Middle-Aged,Moderate
+1757,17,Male,Pediatrics,Heart Attack,2023-09-10 00:00:00,1,184075,91.7,Dr.Verma,Sep,Child,High
+1758,47,Male,Cardiology,Fracture,2023-09-10 08:00:00,19,25389,96.9,Dr.Sharma,Sep,Middle-Aged,Moderate
+1759,23,Male,Cardiology,Asthma,2023-09-10 16:00:00,26,180595,72.2,Dr.Singh,Sep,Adult,High
+1760,79,Female,Cardiology,Heart Attack,2023-09-11 00:00:00,25,128802,93.5,Dr.Mehta,Sep,Senior,High
+1761,85,Male,Orthopedics,Asthma,2023-09-11 08:00:00,10,66576,65.1,Dr.Verma,Sep,Senior,Moderate
+1762,14,Female,Orthopedics,Migraine,2023-09-11 16:00:00,21,48919,87.5,Dr.Mehta,Sep,Child,Moderate
+1763,66,Female,Orthopedics,Migraine,2023-09-12 00:00:00,15,8358,88.9,Dr.Mehta,Sep,Senior,Budget
+1764,75,Female,General,Asthma,2023-09-12 08:00:00,27,93535,86.4,Dr.Khan,Sep,Senior,High
+1765,51,Male,Pediatrics,Fracture,2023-09-12 16:00:00,22,110982,69.8,Dr.Khan,Sep,Middle-Aged,High
+1766,38,Female,Pediatrics,Fracture,2023-09-13 00:00:00,19,10698,94.0,Dr.Verma,Sep,Adult,Budget
+1767,64,Male,Neurology,Asthma,2023-09-13 08:00:00,16,71809,66.6,Dr.Khan,Sep,Middle-Aged,Moderate
+1768,38,Female,Orthopedics,Heart Attack,2023-09-13 16:00:00,21,98079,62.1,Dr.Khan,Sep,Adult,High
+1769,50,Male,General,Fever,2023-09-14 00:00:00,27,60805,88.0,Dr.Khan,Sep,Middle-Aged,Moderate
+1770,82,Female,General,Fracture,2023-09-14 08:00:00,24,167421,78.5,Dr.Mehta,Sep,Senior,High
+1771,30,Male,Pediatrics,Diabetes,2023-09-14 16:00:00,22,186320,93.1,Dr.Verma,Sep,Adult,High
+1772,79,Female,Orthopedics,Migraine,2023-09-15 00:00:00,4,80033,75.0,Dr.Mehta,Sep,Senior,High
+1773,51,Male,Neurology,Asthma,2023-09-15 08:00:00,2,103239,66.6,Dr.Singh,Sep,Middle-Aged,High
+1774,63,Male,Orthopedics,Diabetes,2023-09-15 16:00:00,30,135407,92.6,Dr.Mehta,Sep,Middle-Aged,High
+1775,52,Male,Cardiology,Asthma,2023-09-16 00:00:00,25,49041,81.4,Dr.Singh,Sep,Middle-Aged,Moderate
+1776,38,Male,Orthopedics,Migraine,2023-09-16 08:00:00,13,36954,67.4,Dr.Sharma,Sep,Adult,Moderate
+1777,88,Female,Cardiology,Migraine,2023-09-16 16:00:00,28,13002,88.1,Dr.Sharma,Sep,Senior,Budget
+1778,79,Female,Cardiology,Fracture,2023-09-17 00:00:00,1,74783,79.9,Dr.Singh,Sep,Senior,Moderate
+1779,30,Male,Neurology,Fracture,2023-09-17 08:00:00,17,112524,83.6,Dr.Singh,Sep,Adult,High
+1780,51,Female,Pediatrics,Diabetes,2023-09-17 16:00:00,13,129857,78.0,Dr.Mehta,Sep,Middle-Aged,High
+1781,81,Male,Orthopedics,Asthma,2023-09-18 00:00:00,4,24738,92.3,Dr.Singh,Sep,Senior,Budget
+1782,5,Male,Cardiology,Migraine,2023-09-18 08:00:00,7,15703,92.4,Dr.Verma,Sep,Child,Budget
+1783,29,Female,Orthopedics,Diabetes,2023-09-18 16:00:00,17,118776,87.7,Dr.Sharma,Sep,Adult,High
+1784,4,Male,Pediatrics,Fever,2023-09-19 00:00:00,9,185494,64.1,Dr.Sharma,Sep,Child,High
+1785,10,Male,Pediatrics,Diabetes,2023-09-19 08:00:00,4,197971,92.7,Dr.Singh,Sep,Child,High
+1786,56,Female,General,Heart Attack,2023-09-19 16:00:00,19,148464,86.2,Dr.Khan,Sep,Middle-Aged,High
+1787,17,Male,Pediatrics,Diabetes,2023-09-20 00:00:00,1,49724,87.2,Dr.Khan,Sep,Child,Moderate
+1788,74,Male,Neurology,Heart Attack,2023-09-20 08:00:00,10,37299,74.2,Dr.Singh,Sep,Senior,Moderate
+1789,17,Male,Cardiology,Heart Attack,2023-09-20 16:00:00,4,20641,94.3,Dr.Verma,Sep,Child,Budget
+1790,84,Male,General,Heart Attack,2023-09-21 00:00:00,9,84534,88.3,Dr.Khan,Sep,Senior,High
+1791,88,Female,Neurology,Fever,2023-09-21 08:00:00,13,11305,64.4,Dr.Singh,Sep,Senior,Budget
+1792,69,Female,Orthopedics,Diabetes,2023-09-21 16:00:00,14,23782,75.9,Dr.Verma,Sep,Senior,Budget
+1793,34,Female,Cardiology,Diabetes,2023-09-22 00:00:00,10,83257,94.6,Dr.Verma,Sep,Adult,High
+1794,6,Male,Pediatrics,Fever,2023-09-22 08:00:00,6,82963,61.8,Dr.Mehta,Sep,Child,High
+1795,53,Male,Cardiology,Migraine,2023-09-22 16:00:00,16,126987,97.5,Dr.Verma,Sep,Middle-Aged,High
+1796,66,Female,Orthopedics,Fracture,2023-09-23 00:00:00,6,156638,86.5,Dr.Khan,Sep,Senior,High
+1797,77,Male,General,Diabetes,2023-09-23 08:00:00,17,129591,84.6,Dr.Khan,Sep,Senior,High
+1798,43,Male,General,Fracture,2023-09-23 16:00:00,10,72766,70.6,Dr.Singh,Sep,Adult,Moderate
+1799,75,Male,General,Asthma,2023-09-24 00:00:00,18,11511,69.7,Dr.Singh,Sep,Senior,Budget
+1800,23,Male,Pediatrics,Asthma,2023-09-24 08:00:00,27,119816,96.7,Dr.Verma,Sep,Adult,High
+1801,55,Female,Neurology,Fever,2023-09-24 16:00:00,22,162249,71.6,Dr.Sharma,Sep,Middle-Aged,High
+1802,80,Female,Neurology,Asthma,2023-09-25 00:00:00,18,9765,90.2,Dr.Mehta,Sep,Senior,Budget
+1803,75,Female,Cardiology,Asthma,2023-09-25 08:00:00,3,156426,75.3,Dr.Sharma,Sep,Senior,High
+1804,16,Male,Pediatrics,Migraine,2023-09-25 16:00:00,20,28929,65.4,Dr.Verma,Sep,Child,Moderate
+1805,8,Female,General,Migraine,2023-09-26 00:00:00,27,164892,60.4,Dr.Verma,Sep,Child,High
+1806,4,Female,General,Migraine,2023-09-26 08:00:00,21,116576,81.2,Dr.Sharma,Sep,Child,High
+1807,4,Male,Orthopedics,Asthma,2023-09-26 16:00:00,25,165595,98.1,Dr.Mehta,Sep,Child,High
+1808,56,Male,Orthopedics,Fever,2023-09-27 00:00:00,28,76088,74.4,Dr.Sharma,Sep,Middle-Aged,Moderate
+1809,25,Female,General,Heart Attack,2023-09-27 08:00:00,15,82525,73.9,Dr.Singh,Sep,Adult,High
+1810,67,Female,General,Heart Attack,2023-09-27 16:00:00,15,18780,73.4,Dr.Khan,Sep,Senior,Budget
+1811,67,Female,Pediatrics,Fracture,2023-09-28 00:00:00,4,11589,80.3,Dr.Singh,Sep,Senior,Budget
+1812,27,Female,Neurology,Heart Attack,2023-09-28 08:00:00,29,170884,77.2,Dr.Khan,Sep,Adult,High
+1813,32,Male,Orthopedics,Heart Attack,2023-09-28 16:00:00,27,98664,94.3,Dr.Verma,Sep,Adult,High
+1814,50,Female,Neurology,Migraine,2023-09-29 00:00:00,9,182011,79.7,Dr.Mehta,Sep,Middle-Aged,High
+1815,61,Female,Pediatrics,Migraine,2023-09-29 08:00:00,27,187565,79.8,Dr.Sharma,Sep,Middle-Aged,High
+1816,51,Male,General,Asthma,2023-09-29 16:00:00,26,109188,65.4,Dr.Mehta,Sep,Middle-Aged,High
+1817,19,Female,Neurology,Fracture,2023-09-30 00:00:00,19,98326,98.3,Dr.Sharma,Sep,Adult,High
+1818,21,Male,General,Diabetes,2023-09-30 08:00:00,24,45953,69.7,Dr.Singh,Sep,Adult,Moderate
+1819,5,Male,General,Fracture,2023-09-30 16:00:00,28,70785,62.9,Dr.Singh,Sep,Child,Moderate
+1820,82,Male,Cardiology,Fracture,2023-10-01 00:00:00,17,24309,85.9,Dr.Sharma,Oct,Senior,Budget
+1821,42,Female,Neurology,Fever,2023-10-01 08:00:00,11,59195,83.2,Dr.Mehta,Oct,Adult,Moderate
+1822,61,Female,Neurology,Asthma,2023-10-01 16:00:00,25,30901,76.2,Dr.Sharma,Oct,Middle-Aged,Moderate
+1823,22,Male,General,Fever,2023-10-02 00:00:00,9,159648,76.5,Dr.Verma,Oct,Adult,High
+1824,21,Female,Pediatrics,Fracture,2023-10-02 08:00:00,10,167580,90.6,Dr.Singh,Oct,Adult,High
+1825,70,Female,Cardiology,Fracture,2023-10-02 16:00:00,18,30464,67.6,Dr.Verma,Oct,Senior,Moderate
+1826,1,Male,General,Fracture,2023-10-03 00:00:00,20,196353,92.0,Dr.Singh,Oct,Child,High
+1827,5,Male,Orthopedics,Heart Attack,2023-10-03 08:00:00,13,21260,85.3,Dr.Singh,Oct,Child,Budget
+1828,12,Female,Orthopedics,Fever,2023-10-03 16:00:00,8,129997,76.3,Dr.Khan,Oct,Child,High
+1829,90,Male,Cardiology,Fracture,2023-10-04 00:00:00,7,40440,77.9,Dr.Verma,Oct,Senior,Moderate
+1830,46,Female,Pediatrics,Migraine,2023-10-04 08:00:00,17,100082,70.0,Dr.Verma,Oct,Middle-Aged,High
+1831,34,Female,General,Asthma,2023-10-04 16:00:00,21,110583,89.3,Dr.Khan,Oct,Adult,High
+1832,49,Female,Neurology,Asthma,2023-10-05 00:00:00,23,61683,80.0,Dr.Mehta,Oct,Middle-Aged,Moderate
+1833,78,Female,Cardiology,Migraine,2023-10-05 08:00:00,15,129206,72.5,Dr.Verma,Oct,Senior,High
+1834,90,Male,Pediatrics,Asthma,2023-10-05 16:00:00,20,177502,83.2,Dr.Sharma,Oct,Senior,High
+1835,45,Male,Neurology,Heart Attack,2023-10-06 00:00:00,15,138059,98.8,Dr.Khan,Oct,Middle-Aged,High
+1836,27,Male,Orthopedics,Heart Attack,2023-10-06 08:00:00,1,161177,77.0,Dr.Verma,Oct,Adult,High
+1837,73,Male,Orthopedics,Diabetes,2023-10-06 16:00:00,25,83484,95.9,Dr.Mehta,Oct,Senior,High
+1838,26,Female,Neurology,Diabetes,2023-10-07 00:00:00,14,149098,73.5,Dr.Verma,Oct,Adult,High
+1839,47,Female,Cardiology,Diabetes,2023-10-07 08:00:00,5,73309,62.1,Dr.Singh,Oct,Middle-Aged,Moderate
+1840,86,Male,Orthopedics,Asthma,2023-10-07 16:00:00,11,50927,68.0,Dr.Sharma,Oct,Senior,Moderate
+1841,56,Female,General,Heart Attack,2023-10-08 00:00:00,16,193607,76.3,Dr.Khan,Oct,Middle-Aged,High
+1842,63,Female,Neurology,Heart Attack,2023-10-08 08:00:00,2,47946,68.6,Dr.Singh,Oct,Middle-Aged,Moderate
+1843,48,Female,Neurology,Heart Attack,2023-10-08 16:00:00,8,131503,60.0,Dr.Mehta,Oct,Middle-Aged,High
+1844,61,Male,Orthopedics,Migraine,2023-10-09 00:00:00,11,192633,95.7,Dr.Singh,Oct,Middle-Aged,High
+1845,81,Male,Cardiology,Heart Attack,2023-10-09 08:00:00,29,146449,92.9,Dr.Singh,Oct,Senior,High
+1846,26,Male,General,Migraine,2023-10-09 16:00:00,18,58592,88.9,Dr.Mehta,Oct,Adult,Moderate
+1847,36,Female,Cardiology,Diabetes,2023-10-10 00:00:00,3,143419,66.5,Dr.Singh,Oct,Adult,High
+1848,1,Male,Pediatrics,Diabetes,2023-10-10 08:00:00,30,38776,64.7,Dr.Khan,Oct,Child,Moderate
+1849,8,Male,Pediatrics,Asthma,2023-10-10 16:00:00,26,139855,62.6,Dr.Verma,Oct,Child,High
+1850,52,Male,Orthopedics,Diabetes,2023-10-11 00:00:00,1,60798,88.2,Dr.Singh,Oct,Middle-Aged,Moderate
+1851,79,Male,Orthopedics,Asthma,2023-10-11 08:00:00,11,140370,96.2,Dr.Khan,Oct,Senior,High
+1852,47,Male,Orthopedics,Fracture,2023-10-11 16:00:00,16,75204,76.8,Dr.Verma,Oct,Middle-Aged,Moderate
+1853,56,Male,Pediatrics,Fracture,2023-10-12 00:00:00,18,91207,64.6,Dr.Verma,Oct,Middle-Aged,High
+1854,86,Female,Cardiology,Fever,2023-10-12 08:00:00,30,105356,80.0,Dr.Singh,Oct,Senior,High
+1855,14,Female,Cardiology,Asthma,2023-10-12 16:00:00,16,191233,73.6,Dr.Khan,Oct,Child,High
+1856,90,Male,Orthopedics,Fever,2023-10-13 00:00:00,23,65652,74.6,Dr.Singh,Oct,Senior,Moderate
+1857,28,Male,General,Fever,2023-10-13 08:00:00,10,170556,84.2,Dr.Mehta,Oct,Adult,High
+1858,87,Female,Cardiology,Fracture,2023-10-13 16:00:00,18,134572,88.0,Dr.Verma,Oct,Senior,High
+1859,78,Female,Pediatrics,Asthma,2023-10-14 00:00:00,6,25922,64.3,Dr.Singh,Oct,Senior,Moderate
+1860,88,Male,Neurology,Fracture,2023-10-14 08:00:00,19,170100,61.4,Dr.Verma,Oct,Senior,High
+1861,2,Male,Neurology,Fever,2023-10-14 16:00:00,4,156388,98.8,Dr.Khan,Oct,Child,High
+1862,26,Male,Neurology,Asthma,2023-10-15 00:00:00,27,81996,69.1,Dr.Sharma,Oct,Adult,High
+1863,14,Male,General,Fever,2023-10-15 08:00:00,13,153040,62.1,Dr.Singh,Oct,Child,High
+1864,59,Female,Orthopedics,Heart Attack,2023-10-15 16:00:00,24,35266,67.4,Dr.Singh,Oct,Middle-Aged,Moderate
+1865,56,Male,Pediatrics,Asthma,2023-10-16 00:00:00,14,160072,61.5,Dr.Verma,Oct,Middle-Aged,High
+1866,7,Male,General,Asthma,2023-10-16 08:00:00,3,150083,75.3,Dr.Khan,Oct,Child,High
+1867,3,Male,Pediatrics,Fever,2023-10-16 16:00:00,10,7866,91.3,Dr.Mehta,Oct,Child,Budget
+1868,23,Male,Pediatrics,Heart Attack,2023-10-17 00:00:00,6,117669,73.3,Dr.Khan,Oct,Adult,High
+1869,18,Female,Orthopedics,Migraine,2023-10-17 08:00:00,1,10898,77.3,Dr.Singh,Oct,Adult,Budget
+1870,38,Female,Neurology,Fracture,2023-10-17 16:00:00,23,23395,86.3,Dr.Mehta,Oct,Adult,Budget
+1871,15,Female,Orthopedics,Fever,2023-10-18 00:00:00,24,175091,79.8,Dr.Khan,Oct,Child,High
+1872,64,Male,General,Asthma,2023-10-18 08:00:00,27,9006,93.6,Dr.Sharma,Oct,Middle-Aged,Budget
+1873,89,Male,General,Fracture,2023-10-18 16:00:00,14,170465,93.8,Dr.Verma,Oct,Senior,High
+1874,28,Female,General,Fracture,2023-10-19 00:00:00,8,15956,60.4,Dr.Khan,Oct,Adult,Budget
+1875,74,Male,Orthopedics,Fracture,2023-10-19 08:00:00,19,186114,90.3,Dr.Khan,Oct,Senior,High
+1876,39,Male,Pediatrics,Migraine,2023-10-19 16:00:00,14,142150,78.0,Dr.Sharma,Oct,Adult,High
+1877,57,Female,Pediatrics,Diabetes,2023-10-20 00:00:00,10,165703,98.6,Dr.Singh,Oct,Middle-Aged,High
+1878,17,Female,Cardiology,Fever,2023-10-20 08:00:00,17,100676,78.8,Dr.Verma,Oct,Child,High
+1879,86,Female,General,Diabetes,2023-10-20 16:00:00,9,126724,98.5,Dr.Khan,Oct,Senior,High
+1880,90,Female,Pediatrics,Diabetes,2023-10-21 00:00:00,29,67901,89.4,Dr.Mehta,Oct,Senior,Moderate
+1881,44,Male,Cardiology,Diabetes,2023-10-21 08:00:00,6,112227,69.7,Dr.Khan,Oct,Adult,High
+1882,25,Male,Pediatrics,Fracture,2023-10-21 16:00:00,11,122192,81.0,Dr.Verma,Oct,Adult,High
+1883,17,Female,General,Heart Attack,2023-10-22 00:00:00,25,177646,98.7,Dr.Khan,Oct,Child,High
+1884,13,Male,Neurology,Fracture,2023-10-22 08:00:00,7,36417,93.4,Dr.Sharma,Oct,Child,Moderate
+1885,84,Female,General,Fracture,2023-10-22 16:00:00,17,93020,63.8,Dr.Khan,Oct,Senior,High
+1886,25,Female,Orthopedics,Asthma,2023-10-23 00:00:00,28,88639,87.5,Dr.Khan,Oct,Adult,High
+1887,68,Male,Pediatrics,Asthma,2023-10-23 08:00:00,28,99881,73.5,Dr.Mehta,Oct,Senior,High
+1888,10,Female,Pediatrics,Diabetes,2023-10-23 16:00:00,1,175526,60.3,Dr.Sharma,Oct,Child,High
+1889,67,Male,Orthopedics,Fracture,2023-10-24 00:00:00,22,137659,75.7,Dr.Sharma,Oct,Senior,High
+1890,18,Male,Orthopedics,Diabetes,2023-10-24 08:00:00,5,126688,69.2,Dr.Khan,Oct,Adult,High
+1891,86,Male,Neurology,Asthma,2023-10-24 16:00:00,9,120584,91.9,Dr.Mehta,Oct,Senior,High
+1892,34,Male,Pediatrics,Heart Attack,2023-10-25 00:00:00,18,190782,73.2,Dr.Khan,Oct,Adult,High
+1893,8,Female,Pediatrics,Fever,2023-10-25 08:00:00,24,91567,92.3,Dr.Khan,Oct,Child,High
+1894,40,Male,Neurology,Diabetes,2023-10-25 16:00:00,27,80886,60.0,Dr.Verma,Oct,Adult,High
+1895,83,Female,Cardiology,Heart Attack,2023-10-26 00:00:00,21,154888,72.0,Dr.Verma,Oct,Senior,High
+1896,42,Female,Neurology,Fever,2023-10-26 08:00:00,2,34432,69.4,Dr.Mehta,Oct,Adult,Moderate
+1897,41,Female,General,Migraine,2023-10-26 16:00:00,29,184689,69.1,Dr.Singh,Oct,Adult,High
+1898,6,Female,Pediatrics,Diabetes,2023-10-27 00:00:00,26,77373,62.7,Dr.Verma,Oct,Child,Moderate
+1899,52,Male,Orthopedics,Diabetes,2023-10-27 08:00:00,11,170289,67.3,Dr.Singh,Oct,Middle-Aged,High
+1900,26,Male,General,Migraine,2023-10-27 16:00:00,27,25884,81.7,Dr.Sharma,Oct,Adult,Moderate
+1901,64,Female,Pediatrics,Migraine,2023-10-28 00:00:00,28,10454,71.4,Dr.Verma,Oct,Middle-Aged,Budget
+1902,59,Female,Neurology,Diabetes,2023-10-28 08:00:00,6,79960,76.3,Dr.Verma,Oct,Middle-Aged,Moderate
+1903,56,Male,General,Migraine,2023-10-28 16:00:00,26,107421,74.7,Dr.Mehta,Oct,Middle-Aged,High
+1904,59,Female,Pediatrics,Fracture,2023-10-29 00:00:00,8,48618,94.2,Dr.Singh,Oct,Middle-Aged,Moderate
+1905,70,Male,Cardiology,Fever,2023-10-29 08:00:00,4,198743,95.3,Dr.Verma,Oct,Senior,High
+1906,33,Female,Cardiology,Fever,2023-10-29 16:00:00,18,52111,79.2,Dr.Verma,Oct,Adult,Moderate
+1907,53,Male,Orthopedics,Fever,2023-10-30 00:00:00,28,175685,72.9,Dr.Mehta,Oct,Middle-Aged,High
+1908,22,Female,Pediatrics,Fracture,2023-10-30 08:00:00,11,125592,64.2,Dr.Mehta,Oct,Adult,High
+1909,21,Female,Cardiology,Migraine,2023-10-30 16:00:00,5,64993,97.2,Dr.Singh,Oct,Adult,Moderate
+1910,70,Male,Neurology,Heart Attack,2023-10-31 00:00:00,15,133652,62.3,Dr.Sharma,Oct,Senior,High
+1911,70,Female,Pediatrics,Migraine,2023-10-31 08:00:00,28,144920,71.6,Dr.Sharma,Oct,Senior,High
+1912,4,Female,Neurology,Diabetes,2023-10-31 16:00:00,18,83672,71.6,Dr.Khan,Oct,Child,High
+1913,75,Male,Neurology,Asthma,2023-11-01 00:00:00,2,71125,72.5,Dr.Verma,Nov,Senior,Moderate
+1914,62,Female,Cardiology,Fever,2023-11-01 08:00:00,22,122509,66.4,Dr.Singh,Nov,Middle-Aged,High
+1915,62,Male,Pediatrics,Migraine,2023-11-01 16:00:00,11,66602,90.5,Dr.Verma,Nov,Middle-Aged,Moderate
+1916,24,Male,General,Heart Attack,2023-11-02 00:00:00,26,47222,64.8,Dr.Singh,Nov,Adult,Moderate
+1917,55,Female,Cardiology,Diabetes,2023-11-02 08:00:00,25,54223,84.8,Dr.Singh,Nov,Middle-Aged,Moderate
+1918,9,Female,Cardiology,Fracture,2023-11-02 16:00:00,13,70333,64.8,Dr.Singh,Nov,Child,Moderate
+1919,3,Female,Pediatrics,Fracture,2023-11-03 00:00:00,4,188804,62.8,Dr.Verma,Nov,Child,High
+1920,31,Female,Pediatrics,Heart Attack,2023-11-03 08:00:00,22,127650,95.5,Dr.Mehta,Nov,Adult,High
+1921,40,Female,Neurology,Diabetes,2023-11-03 16:00:00,7,54420,67.4,Dr.Verma,Nov,Adult,Moderate
+1922,36,Female,Pediatrics,Fever,2023-11-04 00:00:00,29,80504,92.0,Dr.Singh,Nov,Adult,High
+1923,24,Female,Neurology,Migraine,2023-11-04 08:00:00,11,7462,81.2,Dr.Khan,Nov,Adult,Budget
+1924,6,Male,Cardiology,Diabetes,2023-11-04 16:00:00,22,14460,63.0,Dr.Sharma,Nov,Child,Budget
+1925,66,Female,Orthopedics,Fracture,2023-11-05 00:00:00,24,104319,97.3,Dr.Singh,Nov,Senior,High
+1926,84,Male,General,Heart Attack,2023-11-05 08:00:00,4,145347,69.6,Dr.Khan,Nov,Senior,High
+1927,75,Female,Cardiology,Heart Attack,2023-11-05 16:00:00,28,149341,93.5,Dr.Mehta,Nov,Senior,High
+1928,4,Female,Pediatrics,Migraine,2023-11-06 00:00:00,15,134593,66.6,Dr.Singh,Nov,Child,High
+1929,79,Male,General,Heart Attack,2023-11-06 08:00:00,1,127672,93.3,Dr.Khan,Nov,Senior,High
+1930,6,Female,Orthopedics,Heart Attack,2023-11-06 16:00:00,23,77920,60.5,Dr.Singh,Nov,Child,Moderate
+1931,51,Female,Orthopedics,Diabetes,2023-11-07 00:00:00,3,27553,80.0,Dr.Verma,Nov,Middle-Aged,Moderate
+1932,62,Male,Neurology,Fever,2023-11-07 08:00:00,14,160438,90.0,Dr.Khan,Nov,Middle-Aged,High
+1933,57,Female,General,Migraine,2023-11-07 16:00:00,6,49036,96.5,Dr.Verma,Nov,Middle-Aged,Moderate
+1934,66,Female,Neurology,Diabetes,2023-11-08 00:00:00,18,153441,95.5,Dr.Verma,Nov,Senior,High
+1935,79,Female,Cardiology,Fever,2023-11-08 08:00:00,25,147867,92.0,Dr.Khan,Nov,Senior,High
+1936,75,Male,General,Diabetes,2023-11-08 16:00:00,1,75021,94.6,Dr.Sharma,Nov,Senior,Moderate
+1937,8,Female,Cardiology,Asthma,2023-11-09 00:00:00,6,112205,67.8,Dr.Khan,Nov,Child,High
+1938,26,Female,Neurology,Diabetes,2023-11-09 08:00:00,6,166215,71.1,Dr.Sharma,Nov,Adult,High
+1939,51,Female,General,Heart Attack,2023-11-09 16:00:00,21,165497,71.3,Dr.Singh,Nov,Middle-Aged,High
+1940,45,Female,Neurology,Fever,2023-11-10 00:00:00,16,93209,74.7,Dr.Singh,Nov,Middle-Aged,High
+1941,44,Male,General,Migraine,2023-11-10 08:00:00,29,80139,75.3,Dr.Khan,Nov,Adult,High
+1942,5,Male,Neurology,Migraine,2023-11-10 16:00:00,5,10368,81.2,Dr.Singh,Nov,Child,Budget
+1943,70,Female,Orthopedics,Fever,2023-11-11 00:00:00,17,140693,66.2,Dr.Mehta,Nov,Senior,High
+1944,26,Female,Neurology,Heart Attack,2023-11-11 08:00:00,10,63829,87.0,Dr.Verma,Nov,Adult,Moderate
+1945,68,Male,Orthopedics,Fracture,2023-11-11 16:00:00,28,134036,66.5,Dr.Verma,Nov,Senior,High
+1946,19,Male,Neurology,Diabetes,2023-11-12 00:00:00,21,196366,72.1,Dr.Sharma,Nov,Adult,High
+1947,84,Female,General,Heart Attack,2023-11-12 08:00:00,18,19719,79.6,Dr.Singh,Nov,Senior,Budget
+1948,20,Male,General,Asthma,2023-11-12 16:00:00,7,34227,91.1,Dr.Sharma,Nov,Adult,Moderate
+1949,12,Female,General,Fever,2023-11-13 00:00:00,3,114430,88.8,Dr.Verma,Nov,Child,High
+1950,47,Male,Pediatrics,Diabetes,2023-11-13 08:00:00,13,143638,85.2,Dr.Verma,Nov,Middle-Aged,High
+1951,1,Male,Cardiology,Migraine,2023-11-13 16:00:00,15,17306,66.1,Dr.Singh,Nov,Child,Budget
+1952,90,Male,General,Fracture,2023-11-14 00:00:00,20,58822,81.3,Dr.Mehta,Nov,Senior,Moderate
+1953,14,Male,Orthopedics,Asthma,2023-11-14 08:00:00,19,29042,63.4,Dr.Mehta,Nov,Child,Moderate
+1954,64,Female,General,Migraine,2023-11-14 16:00:00,3,151158,74.7,Dr.Singh,Nov,Middle-Aged,High
+1955,38,Male,Pediatrics,Fever,2023-11-15 00:00:00,4,153459,76.1,Dr.Singh,Nov,Adult,High
+1956,37,Male,Orthopedics,Diabetes,2023-11-15 08:00:00,5,163114,61.6,Dr.Sharma,Nov,Adult,High
+1957,11,Female,Pediatrics,Fever,2023-11-15 16:00:00,1,94424,70.7,Dr.Singh,Nov,Child,High
+1958,77,Male,Orthopedics,Diabetes,2023-11-16 00:00:00,4,187690,97.3,Dr.Mehta,Nov,Senior,High
+1959,3,Male,Neurology,Heart Attack,2023-11-16 08:00:00,12,154395,97.2,Dr.Singh,Nov,Child,High
+1960,33,Female,Cardiology,Fracture,2023-11-16 16:00:00,28,23019,73.7,Dr.Sharma,Nov,Adult,Budget
+1961,6,Male,Cardiology,Heart Attack,2023-11-17 00:00:00,27,80426,61.7,Dr.Sharma,Nov,Child,High
+1962,50,Female,Pediatrics,Heart Attack,2023-11-17 08:00:00,24,45863,67.0,Dr.Sharma,Nov,Middle-Aged,Moderate
+1963,10,Female,Cardiology,Fever,2023-11-17 16:00:00,10,116023,75.3,Dr.Sharma,Nov,Child,High
+1964,5,Female,Pediatrics,Fracture,2023-11-18 00:00:00,23,146355,97.0,Dr.Khan,Nov,Child,High
+1965,23,Female,Pediatrics,Diabetes,2023-11-18 08:00:00,25,154351,65.5,Dr.Singh,Nov,Adult,High
+1966,10,Male,Pediatrics,Diabetes,2023-11-18 16:00:00,21,51999,89.8,Dr.Verma,Nov,Child,Moderate
+1967,44,Female,Cardiology,Asthma,2023-11-19 00:00:00,29,67780,64.2,Dr.Singh,Nov,Adult,Moderate
+1968,2,Male,Pediatrics,Migraine,2023-11-19 08:00:00,26,27908,98.3,Dr.Khan,Nov,Child,Moderate
+1969,13,Male,Cardiology,Asthma,2023-11-19 16:00:00,20,197656,74.9,Dr.Sharma,Nov,Child,High
+1970,40,Male,Pediatrics,Asthma,2023-11-20 00:00:00,24,131278,90.2,Dr.Khan,Nov,Adult,High
+1971,2,Male,General,Diabetes,2023-11-20 08:00:00,25,118002,73.4,Dr.Mehta,Nov,Child,High
+1972,84,Male,Pediatrics,Fever,2023-11-20 16:00:00,13,186297,84.5,Dr.Mehta,Nov,Senior,High
+1973,65,Male,Orthopedics,Heart Attack,2023-11-21 00:00:00,23,174024,67.5,Dr.Singh,Nov,Senior,High
+1974,63,Male,Pediatrics,Heart Attack,2023-11-21 08:00:00,14,105706,65.7,Dr.Singh,Nov,Middle-Aged,High
+1975,73,Male,Neurology,Heart Attack,2023-11-21 16:00:00,23,173735,96.6,Dr.Verma,Nov,Senior,High
+1976,17,Male,Pediatrics,Fracture,2023-11-22 00:00:00,5,127019,95.8,Dr.Verma,Nov,Child,High
+1977,9,Male,Orthopedics,Diabetes,2023-11-22 08:00:00,4,114708,94.6,Dr.Mehta,Nov,Child,High
+1978,75,Female,Orthopedics,Fever,2023-11-22 16:00:00,14,197453,84.4,Dr.Sharma,Nov,Senior,High
+1979,15,Female,Cardiology,Fracture,2023-11-23 00:00:00,10,184001,91.5,Dr.Khan,Nov,Child,High
+1980,24,Female,General,Migraine,2023-11-23 08:00:00,17,14343,62.7,Dr.Verma,Nov,Adult,Budget
+1981,38,Male,Pediatrics,Fever,2023-11-23 16:00:00,10,81173,73.1,Dr.Verma,Nov,Adult,High
+1982,35,Female,Cardiology,Asthma,2023-11-24 00:00:00,26,105260,72.2,Dr.Sharma,Nov,Adult,High
+1983,49,Female,General,Fever,2023-11-24 08:00:00,7,175863,84.8,Dr.Sharma,Nov,Middle-Aged,High
+1984,69,Female,Pediatrics,Fever,2023-11-24 16:00:00,16,165206,73.9,Dr.Singh,Nov,Senior,High
+1985,62,Male,Neurology,Heart Attack,2023-11-25 00:00:00,1,183173,65.8,Dr.Khan,Nov,Middle-Aged,High
+1986,60,Male,Pediatrics,Fever,2023-11-25 08:00:00,17,74443,83.3,Dr.Sharma,Nov,Middle-Aged,Moderate
+1987,50,Male,Orthopedics,Asthma,2023-11-25 16:00:00,21,62530,91.8,Dr.Verma,Nov,Middle-Aged,Moderate
+1988,78,Male,Orthopedics,Asthma,2023-11-26 00:00:00,29,182871,74.9,Dr.Verma,Nov,Senior,High
+1989,75,Female,Neurology,Diabetes,2023-11-26 08:00:00,9,140899,65.2,Dr.Mehta,Nov,Senior,High
+1990,9,Female,Cardiology,Fever,2023-11-26 16:00:00,6,101143,67.7,Dr.Sharma,Nov,Child,High
+1991,34,Female,General,Heart Attack,2023-11-27 00:00:00,19,198725,69.3,Dr.Singh,Nov,Adult,High
+1992,76,Female,Pediatrics,Fever,2023-11-27 08:00:00,13,149771,71.7,Dr.Khan,Nov,Senior,High
+1993,35,Male,Orthopedics,Migraine,2023-11-27 16:00:00,3,119527,85.1,Dr.Singh,Nov,Adult,High
+1994,1,Male,Cardiology,Migraine,2023-11-28 00:00:00,7,141385,83.4,Dr.Verma,Nov,Child,High
+1995,40,Male,Neurology,Heart Attack,2023-11-28 08:00:00,22,149670,87.1,Dr.Singh,Nov,Adult,High
+1996,64,Female,Orthopedics,Diabetes,2023-11-28 16:00:00,9,116362,74.1,Dr.Verma,Nov,Middle-Aged,High
+1997,22,Male,Neurology,Diabetes,2023-11-29 00:00:00,22,33807,92.1,Dr.Verma,Nov,Adult,Moderate
+1998,60,Male,Pediatrics,Asthma,2023-11-29 08:00:00,5,181298,68.0,Dr.Verma,Nov,Middle-Aged,High
+1999,64,Female,General,Asthma,2023-11-29 16:00:00,10,64550,78.3,Dr.Verma,Nov,Middle-Aged,Moderate
+2000,72,Female,Orthopedics,Fracture,2023-11-30 00:00:00,23,8558,91.2,Dr.Verma,Nov,Senior,Budget
